@@ -1,0 +1,12 @@
+2018-05-10 12:14:32,860 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Initializing Aerospike connection with hosts=172.22.1.71:3000;172.22.1.71:3000;172.22.1.71:3000
+2018-05-10 12:14:33,930 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Alias 172.22.1.71 3000 failed: Error Code -8: java.net.SocketTimeoutException: connect timed out
+2018-05-10 12:14:34,931 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Alias 172.22.1.71 3000 failed: Error Code -8: java.net.SocketTimeoutException: connect timed out
+2018-05-10 12:14:35,933 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Alias 172.22.1.71 3000 failed: Error Code -8: java.net.SocketTimeoutException: connect timed out
+2018-05-10 12:18:45,391 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Initializing Aerospike connection with hosts=172.22.1.71:3000;172.22.1.71:3000;172.22.1.71:3000
+2018-05-10 12:18:46,437 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Alias 172.22.1.71 3000 failed: Error Code -8: java.net.SocketTimeoutException: connect timed out
+2018-05-10 12:18:47,439 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Alias 172.22.1.71 3000 failed: Error Code -8: java.net.SocketTimeoutException: connect timed out
+2018-05-10 12:18:48,440 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Alias 172.22.1.71 3000 failed: Error Code -8: java.net.SocketTimeoutException: connect timed out
+2018-05-10 13:11:05,056 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Initializing Aerospike connection with hosts=172.22.1.71:3000;172.22.1.71:3000;172.22.1.71:3000
+2018-05-10 13:11:10,007 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Alias 172.22.1.71 3000 failed: Error Code -8: java.net.SocketTimeoutException: connect timed out
+2018-05-10 13:11:11,016 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Alias 172.22.1.71 3000 failed: Error Code -8: java.net.SocketTimeoutException: connect timed out
+2018-05-10 13:11:12,024 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Alias 172.22.1.71 3000 failed: Error Code -8: java.net.SocketTimeoutException: connect timed out

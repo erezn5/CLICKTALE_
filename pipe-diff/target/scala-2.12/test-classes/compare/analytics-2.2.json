@@ -1,0 +1,44 @@
+{
+  "Tags": [
+    {
+      "TagName": "Config: Release_20170503",
+      "TagTypeID": 0
+    },
+    {
+      "TagName": "Onload | homepage",
+      "TagTypeID": 0
+    },
+    {
+      "TagName": "Onload | pageType: homepage",
+      "TagTypeID": 0
+    },
+    {
+      "TagName": "Onload | guest",
+      "TagTypeID": 0
+    },
+    {
+      "TagName": "CEC Onload | User state: Guest",
+      "TagTypeID": 0
+    },
+    {
+      "TagName": "Onload | Site Section: homepage",
+      "TagTypeID": 0
+    },
+    {
+      "TagName": "Onload | THD_FORCE_LOC : 2",
+      "TagTypeID": 0
+    },
+    {
+      "TagName": "SSR: THD_FORCE_LOC null to 2",
+      "TagTypeID": 0
+    },
+    {
+      "TagName": "MCVID:85470864210153246070977938746591733077",
+      "TagTypeID": 0
+    },
+    {
+      "TagName": "UploadPage Timeout",
+      "TagTypeID": 0
+    }
+  ]
+}

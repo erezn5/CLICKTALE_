@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuration file is scanned for changes every 60 seconds -->
+<configuration scan="true" scanPeriod="30 seconds">
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <withJansi>true</withJansi>
+        <encoder>
+            <pattern>%d{ISO8601} [%thread] %highlight([%-5level]) %msg %n</pattern>
+        </encoder>
+        <file>/var/log/pipe-diff/pd.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>/var/log/pipe-diff/pd.%d{yyyy-MM-dd_HH}.log.gz</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>10GB</totalSizeCap>
+            <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="STATS" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>/var/log/pipe-diff/metrics.%d{yyyy-MM-dd}.txt</fileNamePattern>
+            <!-- each file should be at most 20MB, keep 10 days worth of history, but at most 2GB -->
+            <maxHistory>10</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{ISO8601} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="STATS"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>/var/log/pipe-diff/metrics.%d{yyyy-MM-dd}.txt</fileNamePattern>
+            <!-- each file should be at most 20MB, keep 10 days worth of history, but at most 2GB -->
+            <maxHistory>10</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="ASYNC_STATS" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="STATS"/>
+    </appender>
+
+    <logger name="metrics" level="INFO" additivity="false">
+        <appender-ref ref="ASYNC_STATS"/>
+    </logger>
+
+    <appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="FILE"/>
+    </appender>
+
+    <appender name="ASYNC_STDOUT" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="STDOUT"/>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="ASYNC"/>
+        <!--<appender-ref ref="ASYNC_STDOUT"/>-->
+    </root>
+</configuration>

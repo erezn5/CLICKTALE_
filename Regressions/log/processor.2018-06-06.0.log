@@ -1,0 +1,177 @@
+2018-06-06 14:09:51,648 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Initializing Aerospike connection with hosts=172.22.1.71:3000;172.22.1.71:3000;172.22.1.71:3000
+2018-06-06 14:09:54,081 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:09:54,244 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:09:55,018 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:09:55,404 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:09:55,407 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:09:55,861 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:09:56,009 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:09:56,153 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:09:56,297 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:09:56,585 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:09:56,822 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:09:56,824 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:09:56,826 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:09:56,949 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:09:56,951 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:10:13,806 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:13,946 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:14,651 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:14,798 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:14,799 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:15,228 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:15,368 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:15,509 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:15,651 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:15,794 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:15,936 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:10:15,936 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:10:15,936 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:10:16,246 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Thread 1 resize buffer to 42544
+2018-06-06 14:10:34,677 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:34,817 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:35,522 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:35,663 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:35,663 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:36,092 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:36,232 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:36,376 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:36,518 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:36,662 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:36,805 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:10:36,805 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:10:36,805 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:10:46,604 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:46,745 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:47,925 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:48,066 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:48,067 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:48,491 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:48,632 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:48,773 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:48,915 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:49,055 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:49,197 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:10:49,197 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:10:49,197 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:10:51,966 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:52,108 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:52,815 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:52,959 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:52,959 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:53,381 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:10:53,522 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:53,667 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:53,809 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:10:53,952 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:10:54,095 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:10:54,095 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:10:54,096 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:11:37,488 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:11:37,628 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:11:38,334 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:11:38,476 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:11:38,476 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:11:38,900 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:11:39,041 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:11:39,183 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:11:39,324 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:11:39,467 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:11:39,610 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:11:39,611 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:11:39,611 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:11:44,360 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:11:44,501 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:11:45,211 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:11:45,358 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:11:45,358 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:11:45,784 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:11:45,928 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:11:46,069 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:11:46,218 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:11:46,363 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:11:46,515 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:11:46,515 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:11:46,515 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:37:00,564 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Initializing Aerospike connection with hosts=172.22.1.71:3000;172.22.1.71:3000;172.22.1.71:3000
+2018-06-06 14:37:01,504 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:01,647 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:02,358 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:02,508 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:02,508 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:02,933 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:03,073 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:03,215 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:03,356 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:03,498 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:03,640 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:37:03,640 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:37:03,640 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:37:03,646 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:37:03,646 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:37:04,081 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:04,221 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:04,944 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:05,087 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:05,087 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:05,510 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:05,651 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:05,792 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:05,936 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:06,079 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:06,222 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:37:06,222 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:37:06,222 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:37:06,522 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Thread 1 resize buffer to 42544
+2018-06-06 14:37:07,113 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:07,259 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:07,966 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:08,108 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:08,109 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:08,533 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:08,673 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:08,813 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:08,955 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:09,099 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:09,242 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:37:09,242 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:37:09,242 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:37:10,092 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:10,232 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:10,938 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:11,079 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:11,079 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:11,509 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:11,649 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:11,790 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:11,931 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:12,074 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:12,214 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:37:12,214 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:37:12,214 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:37:13,344 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:13,486 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:14,192 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:14,332 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:14,332 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:14,756 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:14,896 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:15,037 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:15,177 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:15,318 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:15,460 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:37:15,460 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:37:15,460 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000
+2018-06-06 14:37:16,447 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:16,589 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:17,294 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:17,436 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:17,436 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:17,857 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000003 172.22.1.71 3000
+2018-06-06 14:37:18,000 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:18,141 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update peers for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:18,287 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000002 172.22.7.160 3000
+2018-06-06 14:37:18,428 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Update partition map for node BB9006400000001 172.22.3.126 3000
+2018-06-06 14:37:18,568 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71 3000
+2018-06-06 14:37:18,568 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160 3000
+2018-06-06 14:37:18,568 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126 3000

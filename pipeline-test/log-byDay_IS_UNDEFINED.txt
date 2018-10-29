@@ -1,0 +1,284 @@
+605  [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 1
+611  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+612  [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\sukot.json
+612  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+15910 [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+15911 [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+22361 [main] INFO  com.pipe.pipeapp.PushSession - Recording state was achieved after: 0 tries.
+22362 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "Recording",
+  "rejectReason": "None",
+  "authorized": true,
+  "ratio": 1.0,
+  "uid": "1931392679493722",
+  "skipRecording": false,
+  "expirationMins": 43200,
+  "sid": "1931392679493722"
+}
+22363 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: Recording
+22364 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+23070 [main] INFO  com.pipe.pipeapp.PushSession - 2018-09-26T09:14:14.941Z
+23071 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+23212 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+23234 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+23236 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+23237 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+23234 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+23378 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+23385 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+23444 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+24145 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+24158 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+24181 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+24397 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+24474 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+24894 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+25388 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+25453 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+26340 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+27382 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+28069 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+28153 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+28844 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+28901 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+29604 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+29622 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+30324 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+30442 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+31260 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+32107 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+32791 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+32796 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+32849 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+33520 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+33527 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+34330 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+35071 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+35097 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+35305 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+35807 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+35810 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+36131 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+36504 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+36510 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+37188 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+37532 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+37538 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+38229 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+38234 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+38239 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+38245 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+38916 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+38922 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+38942 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+38949 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+39621 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+39629 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+39633 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+40187 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+40296 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+40997 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+41193 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+41868 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+41871 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+42561 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+42568 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+43666 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+44300 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+44964 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+45039 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+48971 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+49723 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 257,
+
+50437 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1931392679493722
+ pid =2 & subsid = 69313
+50438 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.27.8.176:8080/recording/v1/69313/2/1931392679493722
+50438 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.27.8.176:8080/recording/v1/69313/2/1931392679493722
+50439 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1931392679493722
+1721492 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 104
+1721500 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 0
+1721500 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 100.0%
+346  [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 1
+361  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+361  [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\sukot.json
+361  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+361  [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+361  [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+2323 [main] INFO  com.pipe.pipeapp.PushSession - Recording state was achieved after: 0 tries.
+2323 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "Recording",
+  "rejectReason": "None",
+  "authorized": true,
+  "ratio": 1.0,
+  "uid": "1931422611554342",
+  "skipRecording": false,
+  "expirationMins": 43200,
+  "sid": "1931422611554342"
+}
+2323 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: Recording
+2323 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+2385 [main] INFO  com.pipe.pipeapp.PushSession - 2018-09-26T09:44:41.209Z
+2385 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+2416 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+2432 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+2432 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+2432 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+2432 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+2448 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+2463 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+2463 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+3199 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+3199 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+3199 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+3214 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+3214 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4140 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4140 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4155 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4171 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5177 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5177 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+5193 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6221 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+6487 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+7222 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+7316 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+7316 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+7968 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+8031 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+8046 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+8954 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+8969 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+9193 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+9678 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+9989 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+10248 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+11241 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+11241 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+11992 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+12117 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+12907 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+13704 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+14002 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+14511 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+14511 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+14701 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+15268 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+16150 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+16932 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+16995 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+17688 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+17688 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+18589 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+18589 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+18714 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+19270 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+19410 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+19551 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+20064 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+20064 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+21003 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+21112 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+21891 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+21891 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+23429 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+23555 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+24246 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+24246 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+25117 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+25970 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+29971 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+30777 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 257,
+
+31588 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1931422611554342
+ pid =2 & subsid = 69313
+31588 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.27.8.176:8080/recording/v1/69313/2/1931422611554342
+31588 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.27.8.176:8080/recording/v1/69313/2/1931422611554342
+31588 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1931422611554342
+41838 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 102
+41838 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 0
+41838 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 100.0%
+42160 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(DSR / Metadata): 26
+42160 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (DSR / Metadata): 0
+42160 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(DSR / Metadata): 100.0%
+42160 [main] INFO  com.pipe.pipeapp.CompareSideBySide - 431

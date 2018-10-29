@@ -1,0 +1,34 @@
+{
+  "IsValid": true,
+  "LiveSessionDataCollection": [
+    {
+      "CreateDate": "2018-04-25T14:15:21.411Z",
+      "Data": "Khttps%3A%2F%2Fwww.ebay.co.uk%2Fsl%2Flist%2Fv2%3Fmode%3DReviseItem%26itemId%3D332631885628%26categoryId%3D13833%26sr%3Dwn&APconsole.info('DeploymentConfigName%3DRelease_20180326%26Version%3D11')%3B&9BA+oConfig: Release_20180326&AwDz//////8CmbSKWVWSKWVWCVWKWCVWKWA8CxaCh66&Win32&SMAVWAYWL9KIy6&1&SKWVWSKWVWF/1en-gb&AAAAAAAAAAAAQJLACVWKWAAKTVVN8HDBhttps%3A%2F%2Fwww.ebay.co.uk%2Fitm%2F332631885628%3FssPageName%3DSTRK%3AMESELX%3AIT%26_trksid%3Dp3984.m1558.l2649&BCA&ACKWVW&GQAA",
+      "DataFlags": 8,
+      "DataFlagType": 264,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1713689743098274,
+      "MessageNumber": 0,
+      "StreamId": 0,
+      "StreamMessageId": 0,
+      "ProjectId": 1001
+    }
+  ],
+  "DataMessagesCount": 1,
+  "RecordingStreamBySteamId": [],
+  "MissingDataRowsEstimated": 0,
+  "TotalDataLength": 475,
+  "CreateDate": "2018-04-25T14:15:21.411Z",
+  "IPAddress": "86.173.179.0",
+  "IsSSLUsed": false,
+  "LastUpdated": "2018-03-26T15:15:46.0977423Z",
+  "LiveSessionId": 1713689743098274,
+  "ProjectId": 1001,
+  "ProtocolVersionType": 16,
+  "SessionId": 1713689743098274,
+  "SubscriberId": 233379,
+  "UserAgent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36",
+  "VisitorId": 1712314615595528,
+  "TrackingId": null,
+  "ProcessedMessagesCount": 9
+}

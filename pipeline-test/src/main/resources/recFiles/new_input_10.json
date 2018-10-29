@@ -1,0 +1,46 @@
+{
+  "IsValid": true,
+  "LiveSessionDataCollection": [
+    {
+      "CreateDate": "2018-07-01T11:26:57.256Z",
+      "Data": "Khttps://homeequityloans.discover.com/apply/?sc=H928&Az8SVoCT2MappingTag_126_8818591297989237_7283314029288060_6071353636159396&//////Gw//////DoConfig: Release_20180625&//////CPconsole.info('DeploymentConfigName%3DRelease_20180625%26Version%3D1')%3B&AaIE11&Win32&SMAQAJKKYWRVmIO4&0&SKEPiSKEPRF/1en-us&AAAAAAAAAAAAQMFACPRKEAAKEEEE8CGCA&ACP8PRtEBAiCaAAtECKANhiLIAA&DQAA",
+      "DataFlags": 8,
+      "DataFlagType": 264,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1808367896035595,
+      "MessageNumber": 0,
+      "StreamId": 0,
+      "StreamMessageId": 0,
+      "ProjectId": 20
+    },
+    {
+      "CreateDate": "2018-07-01T11:26:58.365Z",
+      "Data": "qisMobile&false&8UVPconsole.info('DeploymentConfigName%3DRelease_20180625%26Version%3D1')%3B&DoConfig%3A%20Release_20180625&AopageName%3A%20apply&AoPTC-451%20No%20Content%20Element&IoBreakpoint%20large&CXBtEBBcallus-to-complete&&UXCtEDQBtEAAtEABpgTitle&&AXDlmAVinvitationForm&invitationFormBn&C&ACEtEAQDtEBACTAA&CF4EhKYDh&AlEAfSHsEkAbSKEPiSKEPRCPRP8CPRKEAzoVE%20Onload%20%7C%20Application%20%7C%20Not%20FMO%20or%20INVITE&8B5m8BYCFtEBQDtEAAtEAAtEAAhpAHinvitationNo&8invitationNum&&CF9G/KjDX&8InlFBfqFCqAhIACQFOVFBBjIANmBcDI8EA",
+      "DataFlags": 9,
+      "DataFlagType": 265,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1808367896035595,
+      "MessageNumber": 1,
+      "StreamId": 0,
+      "StreamMessageId": 1,
+      "ProjectId": 20
+    }
+  ],
+  "DataMessagesCount": 2,
+  "RecordingStreamBySteamId": [],
+  "MissingDataRowsEstimated": 0,
+  "TotalDataLength": 892,
+  "CreateDate": "2018-07-01T11:26:57.256Z",
+  "IPAddress": "4.16.244.0",
+  "IsSSLUsed": false,
+  "LastUpdated": "2018-06-01T12:26:58.3457509Z",
+  "LiveSessionId": 1808367896035595,
+  "ProjectId": 20,
+  "ProtocolVersionType": 16,
+  "SessionId": 1808367896035595,
+  "SubscriberId": 224631,
+  "UserAgent": "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0; GomezAgent 3.0) like Gecko",
+  "VisitorId": 1808367754511351,
+  "TrackingId": null,
+  "ProcessedMessagesCount": 2
+}

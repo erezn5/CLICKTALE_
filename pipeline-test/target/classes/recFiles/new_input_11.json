@@ -1,0 +1,46 @@
+{
+  "IsValid": true,
+  "LiveSessionDataCollection": [
+    {
+      "CreateDate": "2018-07-01T11:29:59.707Z",
+      "Data": "Khttps://homeequityloans.discover.com/apply/?sc=H928&Az8hKoCT2MappingTag_126_5728239804723279_2919969013875915_2637200999783419&//////Jw//////FoConfig: Release_20180625&//////CPconsole.info('DeploymentConfigName%3DRelease_20180625%26Version%3D1')%3B&AaIE11&Win32&SMAQAJKKYWRVm0hW&0&SKEPiSKEPRF/1en-us&AAAAAAAAAAAAQMFACPRKEAAKEEEE8DF",
+      "DataFlags": 8,
+      "DataFlagType": 264,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1808370884051228,
+      "MessageNumber": 0,
+      "StreamId": 0,
+      "StreamMessageId": 0,
+      "ProjectId": 20
+    },
+    {
+      "CreateDate": "2018-07-01T11:30:00.863Z",
+      "Data": "qisMobile&false&8kGPconsole.info('DeploymentConfigName%3DRelease_20180625%26Version%3D1')%3B&DoConfig%3A%20Release_20180625&AopageName%3A%20apply&BoPTC-451%20No%20Content%20Element&MoBreakpoint%20large&DbSKEPiSKEPRCPRM3CPRKEA8BlXAtEBBcallus-to-complete&&GXBtEDQAtEAAtEABpgTitle&&AXClmAVinvitationForm&invitationFormBn&B&ACDtEAQCtEBACTAA&CF4EhKYDh&BlDAfSHsEkAoVE%20Onload%20%7C%20Application%20%7C%20Not%20FMO%20or%20INVITE&pm8C/CEtEBQCtEAAtEAAtEAAhpAHinvitationNo&8invitationNum&&CF9G/KjDX&8H0lECfqFCqAhIAEQEXVEBCjIAZmCcDI8ET",
+      "DataFlags": 9,
+      "DataFlagType": 265,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1808370884051228,
+      "MessageNumber": 1,
+      "StreamId": 0,
+      "StreamMessageId": 1,
+      "ProjectId": 20
+    }
+  ],
+  "DataMessagesCount": 2,
+  "RecordingStreamBySteamId": [],
+  "MissingDataRowsEstimated": 0,
+  "TotalDataLength": 857,
+  "CreateDate": "2018-07-01T11:29:59.707Z",
+  "IPAddress": "4.14.134.0",
+  "IsSSLUsed": false,
+  "LastUpdated": "2018-06-01T12:30:00.610099Z",
+  "LiveSessionId": 1808370884051228,
+  "ProjectId": 20,
+  "ProtocolVersionType": 16,
+  "SessionId": 1808370884051228,
+  "SubscriberId": 224631,
+  "UserAgent": "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0; GomezAgent 3.0) like Gecko",
+  "VisitorId": 1808370642108673,
+  "TrackingId": null,
+  "ProcessedMessagesCount": 2
+}

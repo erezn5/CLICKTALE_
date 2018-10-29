@@ -1,0 +1,46 @@
+{
+  "IsValid": true,
+  "LiveSessionDataCollection": [
+    {
+      "CreateDate": "2018-04-25T14:15:44.494Z",
+      "Data": "Khttps://www.microsoft.com/en-us/store/p/xbox-game-pass/cfq7ttc0k6l8/000B&Az9BBSPconsole.info('DeploymentConfigName%3DRelease_20180423_1%26Version%3D2')%3B&9CfwoConfig: Release_20180423_1&AwNoCT2MappingTag_162_1752689627383330_3449919372765478_6901922885937969&9BR6aCh66&Linux armv7l&SKAFoAYWL9KKqF&8&SIwFoSIwFoF/1en-us&AAAAAAAAAAAAQJlBCFoIwABUECBB8CeBhttps://www.google.com/&De8FPBXAEzABpdp&&dXBtEARproductIdentity&A&JXCtEARpdpHeaderInfo&B&GCDEzAQCtEBAtEAAtEAABkAAAkDAtEAAtEAAqiDC7&CCOJqKkB4&IQDG",
+      "DataFlags": 8,
+      "DataFlagType": 264,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1713690050806209,
+      "MessageNumber": 0,
+      "StreamId": 0,
+      "StreamMessageId": 0,
+      "ProjectId": 1009
+    },
+    {
+      "CreateDate": "2018-04-25T14:15:47.418Z",
+      "Data": "oOnload | EXP: 16401942t1&9E3koOnload | EXP: tabs&EoOnload | EXP: 16892647t1&BoOnload | EXP: xboxcontentondesktop&BoOnload | EXP: openxbl&AoOnload | EXP: 16541427t1&AoOnload | EXP: 17033681t2&AoOnload | SUS p&DoCEC Action | SUS | Xbox review and checkout&PoOnload|SUS| Buy Xbox Game Pass - Microsoft Store&CoCEC Action | SUS | Xbox review and checkout&AoOnload | Not Signed In&8QWcDI8LT",
+      "DataFlags": 9,
+      "DataFlagType": 265,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1713690050806209,
+      "MessageNumber": 1,
+      "StreamId": 0,
+      "StreamMessageId": 1,
+      "ProjectId": 1009
+    }
+  ],
+  "DataMessagesCount": 2,
+  "RecordingStreamBySteamId": [],
+  "MissingDataRowsEstimated": 0,
+  "TotalDataLength": 883,
+  "CreateDate": "2018-04-25T14:15:44.494Z",
+  "IPAddress": "175.142.236.0",
+  "IsSSLUsed": false,
+  "LastUpdated": "2018-03-26T15:15:47.2023661Z",
+  "LiveSessionId": 1713690050806209,
+  "ProjectId": 1009,
+  "ProtocolVersionType": 16,
+  "SessionId": 1713690050806209,
+  "SubscriberId": 233396,
+  "UserAgent": "Mozilla/5.0 (Linux; Android 7.1.1; SM-J510GN Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.126 Mobile Safari/537.36",
+  "VisitorId": 1713690050806209,
+  "TrackingId": null,
+  "ProcessedMessagesCount": 2
+}

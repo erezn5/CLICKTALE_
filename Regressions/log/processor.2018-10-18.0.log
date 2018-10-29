@@ -1,0 +1,115 @@
+2018-10-18 15:03:24,951 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Initializing Aerospike connection with hosts=172.22.1.71:3000;172.22.1.71:3000;172.22.1.71:3000
+2018-10-18 15:03:25,322 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:03:25,463 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:03:26,205 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:03:26,205 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:03:26,223 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:03:26,223 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:03:26,223 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:03:26,223 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:03:26,223 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:03:26,512 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:03:26,590 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:03:26,726 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:03:26,793 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000002 172.22.7.160:3000 partition generation 1 changed.
+2018-10-18 15:03:27,455 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:03:27,455 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:03:27,463 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:03:27,463 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:03:27,463 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:03:27,757 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:03:27,765 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Thread 1 resize buffer to 42544
+2018-10-18 15:03:28,045 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000002 172.22.7.160:3000 partition generation 1 changed.
+2018-10-18 15:03:28,379 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:03:28,509 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:03:29,239 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:03:29,239 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:03:29,254 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:03:29,254 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:03:29,254 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:03:29,553 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:03:29,843 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000002 172.22.7.160:3000 partition generation 1 changed.
+2018-10-18 15:03:30,135 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:03:30,276 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:03:31,014 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:03:31,014 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:03:31,015 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:03:31,015 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:03:31,015 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:03:31,293 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:03:31,592 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000002 172.22.7.160:3000 partition generation 1 changed.
+2018-10-18 15:03:31,880 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:03:32,027 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:03:32,755 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:03:32,755 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:03:32,757 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:03:32,757 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:03:32,757 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:03:33,037 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:03:33,334 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000002 172.22.7.160:3000 partition generation 1 changed.
+2018-10-18 15:03:33,771 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:03:33,909 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:03:34,628 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:03:34,628 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:03:34,640 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:03:34,640 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:03:34,640 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:03:34,950 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:08:01,051 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Initializing Aerospike connection with hosts=172.22.1.71:3000;172.22.1.71:3000;172.22.1.71:3000
+2018-10-18 15:08:01,412 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:08:01,557 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:08:02,283 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:08:02,299 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:08:02,303 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:08:02,303 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:08:02,303 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:08:02,303 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:08:02,303 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:08:02,607 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:08:02,672 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:08:02,804 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:08:02,897 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000002 172.22.7.160:3000 partition generation 1 changed.
+2018-10-18 15:08:03,543 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:08:03,543 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:08:03,547 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:08:03,547 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:08:03,547 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:08:03,844 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:08:03,869 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Thread 1 resize buffer to 42544
+2018-10-18 15:08:04,129 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000002 172.22.7.160:3000 partition generation 1 changed.
+2018-10-18 15:08:04,621 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:08:04,769 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:08:05,500 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:08:05,500 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:08:05,503 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:08:05,503 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:08:05,503 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:08:05,789 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:08:06,078 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000002 172.22.7.160:3000 partition generation 1 changed.
+2018-10-18 15:08:06,376 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:08:06,510 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:08:07,229 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:08:07,245 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:08:07,248 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:08:07,248 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:08:07,248 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:08:07,545 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:08:07,821 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000002 172.22.7.160:3000 partition generation 1 changed.
+2018-10-18 15:08:07,842 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:08:07,986 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:08:08,709 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:08:08,709 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:08:08,713 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:08:08,713 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:08:08,713 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:08:08,989 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:08:09,293 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000002 172.22.7.160:3000 partition generation 1 changed.
+2018-10-18 15:08:09,585 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000003 172.22.1.71:3000
+2018-10-18 15:08:09,725 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000003 172.22.1.71:3000 partition generation 1 changed.
+2018-10-18 15:08:10,462 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000001 172.22.3.126:3000
+2018-10-18 15:08:10,463 [ScalaTest-run-running-BufferSizeTests] INFO  c.c.p.c.a.AerospikeLogCallback - Add node BB9006400000002 172.22.7.160:3000
+2018-10-18 15:08:10,464 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.1.71:3000
+2018-10-18 15:08:10,464 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.3.126:3000
+2018-10-18 15:08:10,464 [ScalaTest-run-running-BufferSizeTests] DEBUG c.c.p.c.a.AerospikeLogCallback - Add seed 172.22.7.160:3000
+2018-10-18 15:08:10,755 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000001 172.22.3.126:3000 partition generation 1 changed.
+2018-10-18 15:08:11,044 [tend] DEBUG c.c.p.c.a.AerospikeLogCallback - Node BB9006400000002 172.22.7.160:3000 partition generation 1 changed.

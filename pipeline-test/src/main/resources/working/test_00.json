@@ -1,0 +1,46 @@
+{
+  "IsValid": true,
+  "LiveSessionDataCollection": [
+    {
+      "CreateDate": "2018-04-25T14:15:32.341Z",
+      "Data": "Khttps%3A%2F%2Foldnavy.gap.com%2Fbrowse%2Fcategory.do%3Fcid%3D85729%26sop%3Dtrue%26mlink%3D1106539%252Cleftnav%252CLeft_Nav_Jeans%26clink%3Dleftnav%23style%3D1051513%26pageId%3D0&Az8azoCT2MappingTag_159_2279044426272737_1993456539088943_5169927739169633&8UXoOnload | Late Night (12:00AM-6:59AM)&8DXbSKHVWSKHVFLVFBBCCVFKHA8G+oOptimizely&//////8E+oPERS_ONUS_EmailModal_Persado(10199256767):042018_NonCard_EmailModal_PersadoTesting(10597146373):Variation_9(10623391323)&AoOptimizely&APconsole.info('DeploymentConfigName%3DRelease_20180424_1%26Version%3D13')%3B&8KSoConfig: Release_20180424_1&Ao_ONUS_BOPIS(8565683208):BOPIS_ON(8566214942)&//////8KSoOptimizely&Ao_041618_ON_US_Cat_Nav_Reorder(10556684716):Original(10554895175)&//////BoJSESSIONID: a77efc44-196c-4759-8f6b-91198df332df&//////8B9oOnload | TimeStamp | 6AM PST&//////Co_BRONG_Promo_Hub(10452088488):current_ON_experience(10468795150)&8CAw8KUoOptimizely&//////8KU",
+      "DataFlags": 8,
+      "DataFlagType": 264,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1713689923715593,
+      "MessageNumber": 0,
+      "StreamId": 0,
+      "StreamMessageId": 0,
+      "ProjectId": 17
+    },
+    {
+      "CreateDate": "2018-04-25T14:15:32.354Z",
+      "Data": "aCh65&Win32&SMAVWAYWL9KL99&-5&SKHVWSKHVFF/1en-us&AAAAAAAAAAAAQLEACVFKHAAK8DH8Dd8Dd8Dc9BAMBhttps%3A%2F%2Foldnavy.gap.com%2Fbrowse%2Fcategory.do%3Fcid%3D1106539%26tid%3Donem003325%26EV%3DONUSFFPERST204252018%26DI%3D238362856%26CD%3DONNC_OAC%26cvosrc%3Demail.exacttarget.ONUSFFPERST204252018%26IRT%3DP_CP_Family%26sop%3Dtrue&Be8fvACA&ADBBCAVFtECAhTA&KQAB",
+      "DataFlags": 8,
+      "DataFlagType": 264,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1713689923715593,
+      "MessageNumber": 1,
+      "StreamId": 0,
+      "StreamMessageId": 1,
+      "ProjectId": 17
+    }
+  ],
+  "DataMessagesCount": 2,
+  "RecordingStreamBySteamId": [],
+  "MissingDataRowsEstimated": 0,
+  "TotalDataLength": 1272,
+  "CreateDate": "2018-04-25T14:15:32.341Z",
+  "IPAddress": "68.111.104.0",
+  "IsSSLUsed": false,
+  "LastUpdated": "2018-03-26T15:15:50.9197296Z",
+  "LiveSessionId": 1713689923715593,
+  "ProjectId": 17,
+  "ProtocolVersionType": 16,
+  "SessionId": 1713689923715593,
+  "SubscriberId": 233167,
+  "UserAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36",
+  "VisitorId": 1534160735076473,
+  "TrackingId": null,
+  "ProcessedMessagesCount": 13
+}

@@ -1,0 +1,63 @@
+2018-01-03 17:29:48,866 [main] INFO  c.c.pipeline.processor.host.Boot$ - Processor service is starting up
+2018-01-03 17:29:49,590 [processor-akka.actor.default-dispatcher-4] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+2018-01-03 17:29:49,602 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.EventStream - logger log1-Slf4jLogger started
+2018-01-03 17:29:49,610 [processor-akka.actor.default-dispatcher-4] DEBUG a.a.LocalActorRefProvider$SystemGuardian - now supervising Actor[akka://processor/system/UnhandledMessageForwarder#333095650]
+2018-01-03 17:29:49,610 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.EventStream - subscribing Actor[akka://processor/system/UnhandledMessageForwarder#333095650] to channel class akka.actor.UnhandledMessage
+2018-01-03 17:29:49,611 [processor-akka.actor.default-dispatcher-4] DEBUG a.e.LoggingBus$$anonfun$startDefaultLoggers$2$$anon$3 - started (akka.event.LoggingBus$$anonfun$startDefaultLoggers$2$$anon$3@73f1c546)
+2018-01-03 17:29:49,612 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.EventStream - Default Loggers started
+2018-01-03 17:29:49,613 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.EventStream - unsubscribing StandardOutLogger from all channels
+2018-01-03 17:29:49,613 [processor-akka.actor.default-dispatcher-4] DEBUG a.a.LocalActorRefProvider$SystemGuardian - now supervising Actor[akka://processor/system/deadLetterListener#1598332283]
+2018-01-03 17:29:49,614 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.EventStream - subscribing Actor[akka://processor/system/deadLetterListener#1598332283] to channel class akka.actor.DeadLetter
+2018-01-03 17:29:49,614 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.DeadLetterListener - started (akka.event.DeadLetterListener@7ef48049)
+2018-01-03 17:29:49,615 [processor-akka.actor.default-dispatcher-4] DEBUG a.a.LocalActorRefProvider$SystemGuardian - now supervising Actor[akka://processor/system/eventStreamUnsubscriber-1#-800875823]
+2018-01-03 17:29:49,615 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.EventStreamUnsubscriber - registering unsubscriber with akka.event.EventStream@6e78a173
+2018-01-03 17:29:49,616 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.EventStream - initialized unsubscriber to: Actor[akka://processor/system/eventStreamUnsubscriber-1#-800875823], registering 3 initial subscribers with it
+2018-01-03 17:29:49,617 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.EventStreamUnsubscriber - started (akka.event.EventStreamUnsubscriber@7885252a)
+2018-01-03 17:29:49,618 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.EventStreamUnsubscriber - watching Actor[akka://processor/system/log1-Slf4jLogger#1761379547] in order to unsubscribe from EventStream when it terminates
+2018-01-03 17:29:49,619 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.EventStreamUnsubscriber - watching Actor[akka://processor/system/UnhandledMessageForwarder#333095650] in order to unsubscribe from EventStream when it terminates
+2018-01-03 17:29:49,620 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.slf4j.Slf4jLogger - now watched by Actor[akka://processor/system/eventStreamUnsubscriber-1#-800875823]
+2018-01-03 17:29:49,620 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.EventStreamUnsubscriber - watching Actor[akka://processor/system/deadLetterListener#1598332283] in order to unsubscribe from EventStream when it terminates
+2018-01-03 17:29:49,621 [processor-akka.actor.default-dispatcher-4] DEBUG a.e.LoggingBus$$anonfun$startDefaultLoggers$2$$anon$3 - now watched by Actor[akka://processor/system/eventStreamUnsubscriber-1#-800875823]
+2018-01-03 17:29:49,621 [processor-akka.actor.default-dispatcher-4] DEBUG akka.event.DeadLetterListener - now watched by Actor[akka://processor/system/eventStreamUnsubscriber-1#-800875823]
+2018-01-03 17:29:50,056 [processor-akka.actor.default-dispatcher-5] DEBUG a.a.LocalActorRefProvider$Guardian - now supervising Actor[akka://processor/user/main#-254209907]
+2018-01-03 17:29:50,063 [processor-akka.actor.default-dispatcher-5] DEBUG akka.event.EventStream - subscribing Actor[akka://processor/user/main#-254209907] to channel class com.clicktale.pipeline.common.configuration.ConfigurationDefinitions$Configuration
+2018-01-03 17:29:50,064 [processor-akka.actor.default-dispatcher-5] DEBUG akka.event.EventStreamUnsubscriber - watching Actor[akka://processor/user/main#-254209907] in order to unsubscribe from EventStream when it terminates
+2018-01-03 17:29:50,075 [processor-akka.actor.default-dispatcher-4] DEBUG c.c.p.p.host.ProcessorActorFactory - ActorCreationSupport: Creating actor configuration-actor
+2018-01-03 17:29:50,091 [processor-akka.actor.default-dispatcher-3] DEBUG c.c.p.processor.host.MainActor - started (com.clicktale.pipeline.processor.host.MainActor@591ccbcf)
+2018-01-03 17:29:50,092 [processor-akka.actor.default-dispatcher-3] DEBUG c.c.p.processor.host.MainActor - now watched by Actor[akka://processor/system/eventStreamUnsubscriber-1#-800875823]
+2018-01-03 17:29:50,093 [processor-akka.actor.default-dispatcher-3] DEBUG c.c.p.processor.host.MainActor - now supervising Actor[akka://processor/user/main/configuration-actor#610571626]
+2018-01-03 17:29:50,103 [processor-akka.actor.default-dispatcher-5] ERROR akka.actor.OneForOneStrategy - akka://processor/user/main/configuration-actor: exception during creation
+akka.actor.ActorInitializationException: akka://processor/user/main/configuration-actor: exception during creation
+	at akka.actor.ActorInitializationException$.apply(Actor.scala:174)
+	at akka.actor.ActorCell.create(ActorCell.scala:607)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:461)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:483)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:223)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at akka.util.Reflect$.instantiate(Reflect.scala:65)
+	at akka.actor.ArgsReflectConstructor.produce(IndirectActorProducer.scala:96)
+	at akka.actor.Props.newActor(Props.scala:213)
+	at akka.actor.ActorCell.newActor(ActorCell.scala:562)
+	at akka.actor.ActorCell.create(ActorCell.scala:588)
+	... 9 common frames omitted
+Caused by: java.nio.file.InvalidPathException: Illegal char <:> at index 27: C:\Git\Regressions\lib\file:\C:\Git\Regressions\lib\processor_1.0.49.jar!\zookeeper_configuration.csv
+	at sun.nio.fs.WindowsPathParser.normalize(Unknown Source)
+	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at sun.nio.fs.WindowsPathParser.parse(Unknown Source)
+	at sun.nio.fs.WindowsPath.parse(Unknown Source)
+	at sun.nio.fs.WindowsFileSystem.getPath(Unknown Source)
+	at java.nio.file.Paths.get(Unknown Source)
+	at com.clicktale.pipeline.common.configuration.CsvActor.watchFile(CsvActor.scala:68)
+	at com.clicktale.pipeline.common.configuration.CsvActor.<init>(CsvActor.scala:23)
+	... 18 common frames omitted
+2018-01-03 17:29:50,104 [processor-akka.actor.default-dispatcher-5] DEBUG akka.actor.ActorCell - stopped

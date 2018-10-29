@@ -1,0 +1,229 @@
+com.clicktale.pipe.diff {
+
+  flow {
+    // refer to PipeDiff.scala to find all the mode of the programm
+    // ConnectivityAmqpA, ConnectivityAmqpB, CountSessionKeyOnA, ConnectivityKafkaA, ConnectivityKafkaB
+    // 2AMQPSFiltered, AMQP2Cache, AMQP2Cage, FullPipeDiff
+    mode: "FullPipeDiff" // local debugging only (no effect)
+    //    pid: 60
+    //    sid: 233263
+    //    pid: 14474
+    //    sid: 232933
+    //    pid: 74
+    //    sid: 233542
+    //    pid: 59
+    //    sid: 233261
+    pid: 3020
+    sid: 233415
+    resultDirectory: "/tmp/pipe/diff"
+  }
+
+  amqp-cage {
+
+    source-a {
+
+      amqp {
+        name = "qa"
+        host = "172.22.7.11"
+        port = 5672
+        username = "pipeline"
+        password = "eb72BrfGU6JA6Ne23UIg"
+        queueName = "pdt0.2.pipe.diff.test.queue1"
+        prefetchCount = 5
+      }
+
+      cage {
+        host = "datareader.clicktale.net"
+        port = 8080
+        apikey = {
+          name = "ct-api-key"
+          value = "TheUnforgiven"
+        }
+      }
+    }
+
+    source-b {
+
+      amqp {
+        name = "qa"
+        host = "172.22.7.11"
+        port = 5672
+        username = "pipeline"
+        password = "eb72BrfGU6JA6Ne23UIg"
+        queueName = "pdt0.2.pipe.diff.test.queue2"
+        prefetchCount = 5
+      }
+
+      cage {
+        host = "datareader.clicktale.net"
+        port = 8080
+        apikey = {
+          name = "ct-api-key"
+          value = "TheUnforgiven"
+        }
+      }
+    }
+
+  }
+
+  kafka {
+
+    source-a {
+      // [key, value] deserializer are not very susceptible of change in the actual context
+      // so it will not be configurable for now.
+      // Key: StringDeserializer, Value: StringDeserializer
+
+      bootstrap-server = "172.22.0.65:9092"
+
+      group-id = "pipe-diff-a"
+
+      topic = "proc"
+
+      // also there is just one partition that is handled for the moment so it is not really a conf
+      // partition = 0
+
+      // where the last off-kafka committed offset will be handled
+      committed-offset = "/tmp/pipe-diff/source-a/committed-offset"
+
+      akka.kafka.consumer {
+        // tuning properties
+        // all the alpakka connector specific properties may be centralized here
+        // see: https://doc.akka.io/docs/akka-stream-kafka/current/consumer.html
+        // it will be loaded and added to the Consumer setting at instantiation.
+        # Tuning property of scheduled polls.
+        poll-interval = 50ms
+
+        # Tuning property of the `KafkaConsumer.poll` parameter.
+        # Note that non-zero value means that the thread that
+        # is executing the stage will be blocked.
+        poll-timeout = 50ms
+
+        # The stage will await outstanding offset commit requests before
+        # shutting down, but if that takes longer than this timeout it will
+        # stop forcefully.
+        stop-timeout = 30s
+
+        # How long to wait for `KafkaConsumer.close`
+        close-timeout = 20s
+
+        # If offset commit requests are not completed within this timeout
+        # the returned Future is completed `CommitTimeoutException`.
+        commit-timeout = 15s
+
+        # If commits take longer than this time a warning is logged
+        commit-time-warning = 1s
+
+        # If for any reason `KafkaConsumer.poll` blocks for longer than the configured
+        # poll-timeout then it is forcefully woken up with `KafkaConsumer.wakeup`.
+        # The KafkaConsumerActor will throw
+        # `org.apache.kafka.common.errors.WakeupException` which will be ignored
+        # until `max-wakeups` limit gets exceeded.
+        wakeup-timeout = 3s
+
+        # After exceeding maxinum wakeups the consumer will stop and the stage and fail.
+        # Setting it to 0 will let it ignore the wakeups and try to get the polling done forever.
+        max-wakeups = 10
+
+        # If set to a finite duration, the consumer will re-send the last committed offsets periodically
+        # for all assigned partitions. See https://issues.apache.org/jira/browse/KAFKA-4682.
+        commit-refresh-interval = infinite
+
+        # If enabled, log stack traces before waking up the KafkaConsumer to give
+        # some indication why the KafkaConsumer is not honouring the `poll-timeout`
+        wakeup-debug = true
+
+        # Fully qualified config path which holds the dispatcher configuration
+        # to be used by the KafkaConsumerActor. Some blocking may occur.
+        use-dispatcher = "akka.kafka.default-dispatcher"
+
+        # Properties defined by org.apache.kafka.clients.consumer.ConsumerConfig
+        # can be defined in this configuration section.
+        kafka-clients {
+          # Disable auto-commit by default
+          enable.auto.commit = false
+        }
+
+        # Time to wait for pending requests when a partition is closed
+        wait-close-partition = 500ms
+      }
+
+    }
+
+    source-b {
+
+      // [key, value] deserializer are not very susceptible of change in the actual context
+      // so it will not be configurable for now.
+      // Key: StringDeserializer, Value: StringDeserializer
+
+      bootstrap-server = "172.22.0.65:9092"
+
+      group-id = "pipe-diff-b"
+
+      topic = "proc_linux"
+
+      akka.kafka.consumer {
+        // tuning properties
+        // all the alpakka connector specific properties may be centralized here
+        // see: https://doc.akka.io/docs/akka-stream-kafka/current/consumer.html
+        // it will be loaded and added to the Consumer setting at instantiation.
+        # Tuning property of scheduled polls.
+        poll-interval = 50ms
+
+        # Tuning property of the `KafkaConsumer.poll` parameter.
+        # Note that non-zero value means that the thread that
+        # is executing the stage will be blocked.
+        poll-timeout = 50ms
+
+        # The stage will await outstanding offset commit requests before
+        # shutting down, but if that takes longer than this timeout it will
+        # stop forcefully.
+        stop-timeout = 30s
+
+        # How long to wait for `KafkaConsumer.close`
+        close-timeout = 20s
+
+        # If offset commit requests are not completed within this timeout
+        # the returned Future is completed `CommitTimeoutException`.
+        commit-timeout = 15s
+
+        # If commits take longer than this time a warning is logged
+        commit-time-warning = 1s
+
+        # If for any reason `KafkaConsumer.poll` blocks for longer than the configured
+        # poll-timeout then it is forcefully woken up with `KafkaConsumer.wakeup`.
+        # The KafkaConsumerActor will throw
+        # `org.apache.kafka.common.errors.WakeupException` which will be ignored
+        # until `max-wakeups` limit gets exceeded.
+        wakeup-timeout = 3s
+
+        # After exceeding maxinum wakeups the consumer will stop and the stage and fail.
+        # Setting it to 0 will let it ignore the wakeups and try to get the polling done forever.
+        max-wakeups = 10
+
+        # If set to a finite duration, the consumer will re-send the last committed offsets periodically
+        # for all assigned partitions. See https://issues.apache.org/jira/browse/KAFKA-4682.
+        commit-refresh-interval = infinite
+
+        # If enabled, log stack traces before waking up the KafkaConsumer to give
+        # some indication why the KafkaConsumer is not honouring the `poll-timeout`
+        wakeup-debug = true
+
+        # Fully qualified config path which holds the dispatcher configuration
+        # to be used by the KafkaConsumerActor. Some blocking may occur.
+        use-dispatcher = "akka.kafka.default-dispatcher"
+
+        # Properties defined by org.apache.kafka.clients.consumer.ConsumerConfig
+        # can be defined in this configuration section.
+        kafka-clients {
+          # Disable auto-commit by default
+          enable.auto.commit = false
+        }
+
+        # Time to wait for pending requests when a partition is closed
+        wait-close-partition = 500ms
+      }
+
+    }
+  }
+
+}

@@ -1,0 +1,48 @@
+
+{
+  "IsValid": true,
+  "LiveSessionDataCollection": [
+    {
+      "CreateDate": "2018-07-02T12:11:55.261Z",
+      "Data": "qisMobile&false&9CCfoOnload | US|AMEX|Acq|GCP|Open|CardDetail|BlueBusinessPlusCard&doOnload | Business Credit Cards&BoOnload | PDP | Variant First Blind Opened&DoVE Onload | GCP Shop Marketing Channel | Site&UoVE Onload | GCP Shop Marketing Channel | Affiliate&AoMCVID:61918772794744985034743280659478357407&CXBtEABresponsiveWrapper_main&&IXCtEARresponsiveWrapper_sub&B&AXDtEAQCEzABcontent&&AXEMQAQDZvAAEzAAQNABbusiness-credit-card-detail-v2&&ACFtEAQEKPAAwhAAwhAAwhAAwhCA&CRqCXC2KC+&AlFAfSUML+BmHxDIe",
+      "DataFlags": 9,
+      "DataFlagType": 265,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1809827672637541,
+      "MessageNumber": 1,
+      "StreamId": 0,
+      "StreamMessageId": 1,
+      "ProjectId": 16511
+    },
+    {
+      "CreateDate": "2018-07-02T12:11:55.608Z",
+      "Data": "Khttps%3A%2F%2Fwww.americanexpress.com%2Fus%2Fcredit-cards%2Fbusiness%2Fbusiness-credit-cards%2Famerican-express-blue-business-plus-credit-card-amex%2F42732%3Feep%3D42732%26irgwc%3D1%26veid%3DUTFX0ywT62YZzS3yxgShlySxUkjRW1Ve2Vas0A0%26pid%3DIR%26affid%3D357474%26affname%3DQuinStreet%2520Inc.%26sid%3DSBS10006%26pmc%3D1110&Az9BDXPconsole.info('DeploymentConfigName%3DRelease_20180619%26Version%3D8')%3B&8yKoConfig: Release_20180619&AwEaCh67&Win32&SQ4eAAYWRa5+60&3&SOCU5SOCUoF/1en-us&AAAAAAAAAAAAQMBBCUoOCAAKBBBB8MeCA&AC8kU5tEAAyEDAR&UQAC",
+      "DataFlags": 8,
+      "DataFlagType": 264,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1809827672637541,
+      "MessageNumber": 0,
+      "StreamId": 0,
+      "StreamMessageId": 0,
+      "ProjectId": 16511
+    }
+  ],
+  "DataMessagesCount": 2,
+  "RecordingStreamBySteamId": [],
+  "MissingDataRowsEstimated": 0,
+  "TotalDataLength": 1036,
+  "CreateDate": "2018-07-02T12:11:55.261Z",
+  "IPAddress": "207.232.17.0",
+  "IsSSLUsed": false,
+  "LastUpdated": "2018-06-02T13:11:55.1678764Z",
+  "LiveSessionId": 1809827672637541,
+  "ProjectId": 16511,
+  "ProtocolVersionType": 16,
+  "SessionId": 1809827672637541,
+  "SubscriberId": 232921,
+  "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36",
+  "VisitorId": 1809827672637541,
+  "TrackingId": null,
+  "ProcessedMessagesCount": 0
+}
+            

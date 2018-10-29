@@ -1,0 +1,46 @@
+{
+  "IsValid": true,
+  "LiveSessionDataCollection": [
+    {
+      "CreateDate": "2018-04-25T14:15:46.171Z",
+      "Data": "Khttps%3A%2F%2Fbr.shopmetlife.com%2Fdental%3Futm_source%3Dcriteo%26utm_medium%3Ddisplay%26utm_campaign%3D39%26utm_content%3D82%26utm_audiencesegment%3D24%26utm_creativesize%3D300x250%26uam%3Dtrue%26mobile%3D4&Az9B9IoCM&9Bnxw3aCh60&Linux armv7l&SIWFAAgWL9KKmO&-3&SH8FASH8FAF/1pt-br&AAAAAAAAAAAAQLBACFAHEABPCCCC9CUdBhttps%3A%2F%2Fbr.shopmetlife.com%2Fdental%3Futm_source%3Dcriteo%26utm_medium%3Ddisplay%26utm_campaign%3D39%26utm_content%3D82%26utm_audiencesegment%3D24%26utm_creativesize%3D300x250&Ge8rCCCA&ADBYWAFAQNAKABBiRPAAdmALAABHHi25AA&tQAA",
+      "DataFlags": 8,
+      "DataFlagType": 264,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1713689998393572,
+      "MessageNumber": 0,
+      "StreamId": 0,
+      "StreamMessageId": 0,
+      "ProjectId": 96
+    },
+    {
+      "CreateDate": "2018-04-25T14:15:46.409Z",
+      "Data": "WB9I8a9GBlOBGcDI8FP",
+      "DataFlags": 9,
+      "DataFlagType": 265,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1713689998393572,
+      "MessageNumber": 1,
+      "StreamId": 0,
+      "StreamMessageId": 1,
+      "ProjectId": 96
+    }
+  ],
+  "DataMessagesCount": 2,
+  "RecordingStreamBySteamId": [],
+  "MissingDataRowsEstimated": 0,
+  "TotalDataLength": 563,
+  "CreateDate": "2018-04-25T14:15:46.171Z",
+  "IPAddress": "189.83.79.0",
+  "IsSSLUsed": false,
+  "LastUpdated": "2018-03-26T15:15:46.3369734Z",
+  "LiveSessionId": 1713689998393572,
+  "ProjectId": 96,
+  "ProtocolVersionType": 16,
+  "SessionId": 1713689998393572,
+  "SubscriberId": 120276,
+  "UserAgent": "Mozilla/5.0 (Linux; Android 4.4.2; SM-G355M Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.116 Mobile Safari/537.36",
+  "VisitorId": 1704355201712213,
+  "TrackingId": null,
+  "ProcessedMessagesCount": 2
+}

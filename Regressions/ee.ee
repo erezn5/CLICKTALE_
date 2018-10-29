@@ -1,0 +1,380 @@
+diff --git a/build.sbt b/build.sbt
+index 741b66e..2eb3643 100644
+--- a/build.sbt
++++ b/build.sbt
+@@ -46,7 +46,7 @@ libraryDependencies ++= Seq(
+ libraryDependencies += "org.scala-lang.modules" % "scala-xml_2.11" % "1.0.5"
+ libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "2.16.0"
+ 
+-conflictManager := ConflictManager.strict
++//conflictManager := ConflictManager.strict
+ 
+ assemblyMergeStrategy in assembly := {
+   case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+diff --git a/src/main/resources/regConfig.conf b/src/main/resources/regConfig.conf
+index c84ca61..34cd004 100644
+--- a/src/main/resources/regConfig.conf
++++ b/src/main/resources/regConfig.conf
+@@ -227,8 +227,8 @@ WebRecorder
+ 
+     PushSession
+       {
+-        //URL = "http://nv-p1-elb-ext-central-cage-01-993205500.us-east-1.elb.amazonaws.com"
+-        //URL="172.22.6.15:8000"
++        URL = "http://nv-p1-elb-ext-central-cage-01-993205500.us-east-1.elb.amazonaws.com"
++        //URL="172.22.4.65:8000"
+         amazonUrl="https://763084289091.signin.aws.amazon.com/console"
+         //AccessKey ="Erez.Naim"
+         AccessKey = "AKIAIBFGB4WJIJSI3VNQ"
+@@ -245,6 +245,7 @@ WebRecorder
+           // DNS = "http://172.22.0.204:8000"
+             //DNS = "http://172.22.5.45:8000"
+             //DNS="172.22.6.15:8000"
++            //DNS="172.22.5.65"
+             DNS="http://nv-p1-elb-ext-central-cage-01-993205500.us-east-1.elb.amazonaws.com"
+            // DNS = "http://internal-nv-q-elb-int-cage-01-284466208.us-east-1.elb.amazonaws.com" //"http://nv-p1-elb-ext-central-cage-01-993205500.us-east-1.elb.amazonaws.com"
+           }
+diff --git a/src/main/scala/com/clicktale/pipeline/dataObjects/AuthResponse.scala b/src/main/scala/com/clicktale/pipeline/dataObjects/AuthResponse.scala
+index fa0a3df..2c47db8 100644
+--- a/src/main/scala/com/clicktale/pipeline/dataObjects/AuthResponse.scala
++++ b/src/main/scala/com/clicktale/pipeline/dataObjects/AuthResponse.scala
+@@ -36,5 +36,6 @@ object AuthResponse {
+ 
+   def apply(responseAsJson: String): AuthResponse =  {
+     new Gson().fromJson(responseAsJson, classOf[AuthResponse])
++
+   }
+ }
+\ No newline at end of file
+diff --git a/src/main/scala/com/clicktale/pipeline/dataObjects/PusherParams.scala b/src/main/scala/com/clicktale/pipeline/dataObjects/PusherParams.scala
+index 2c5888c..23ee935 100644
+--- a/src/main/scala/com/clicktale/pipeline/dataObjects/PusherParams.scala
++++ b/src/main/scala/com/clicktale/pipeline/dataObjects/PusherParams.scala
+@@ -16,5 +16,9 @@ case class PusherParams(var recFile:String = "/recFiles/recEvent.json",
+                         var messageCounter:Int = 0,
+                         var sessionStreamsDelayFromAuth: Int = 0,
+                         var optionalSuffix: String = "") {
++
++  def getRecFile(): String ={
++    return recFile
++  }
+ }
+ 
+diff --git a/src/main/scala/com/clicktale/pipeline/framework/dal/AerospikeManager.scala b/src/main/scala/com/clicktale/pipeline/framework/dal/AerospikeManager.scala
+index 1586680..bf44b7e 100644
+--- a/src/main/scala/com/clicktale/pipeline/framework/dal/AerospikeManager.scala
++++ b/src/main/scala/com/clicktale/pipeline/framework/dal/AerospikeManager.scala
+@@ -29,11 +29,11 @@ object AerospikeManager {
+ 
+ 
+   def getSessionDetails(sessionId : Long): Future[SessionDetails] = {
+-    sessionsRepo.getSessionDetails(sessionId,1)
++    sessionsRepo.getSessionDetails(sessionId)
+   }
+ 
+   def getAuthDetails(sessionId : Long): Future[SessionDetails] = {
+-    sessionsRepo.getSessionDetails(sessionId,1)
++    sessionsRepo.getSessionDetails(sessionId)
+   }
+ 
+   def getUserTrackingState(userId: Long) = {
+diff --git a/src/main/scala/com/clicktale/pipeline/framework/senders/SendSession.scala b/src/main/scala/com/clicktale/pipeline/framework/senders/SendSession.scala
+index f88f8b6..806a343 100644
+--- a/src/main/scala/com/clicktale/pipeline/framework/senders/SendSession.scala
++++ b/src/main/scala/com/clicktale/pipeline/framework/senders/SendSession.scala
+@@ -37,6 +37,7 @@ object SendSession {
+       val result =
+         String.join("",IOUtils.readLines(response.getEntity.getContent))
+       client.close()
++      println(result)
+       result
+     }
+     catch {
+@@ -49,6 +50,7 @@ object SendSession {
+         val result =
+           String.join("",IOUtils.readLines(response.getEntity.getContent))
+         client.close()
++
+         result
+     }
+   }
+diff --git a/src/main/scala/com/clicktale/pipeline/regression/tools/Amazon.scala b/src/main/scala/com/clicktale/pipeline/regression/tools/Amazon.scala
+index c73ee3e..71a87b9 100644
+--- a/src/main/scala/com/clicktale/pipeline/regression/tools/Amazon.scala
++++ b/src/main/scala/com/clicktale/pipeline/regression/tools/Amazon.scala
+@@ -1,5 +1,7 @@
+ package com.clicktale.pipeline.regression.tools
+ 
++import java.io.InputStream
++
+ import com.amazonaws.services.ec2.model.Tag
+ import com.amazonaws.{AmazonClientException, auth}
+ import com.amazonaws.AmazonClientException
+@@ -7,12 +9,13 @@ import com.amazonaws.AmazonServiceException
+ import scala.collection.JavaConversions._
+ import com.amazonaws.auth.{AWSStaticCredentialsProvider, BasicAWSCredentials}
+ import com.amazonaws.services.ec2.model.Instance
+-import com.amazonaws.services.s3
++import com.amazonaws.services.s3.AmazonS3Client
++import com.amazonaws.auth.BasicAWSCredentials
+ import com.amazonaws.services.s3.model.{GetObjectTaggingRequest, ObjectListing, S3ObjectSummary}
+ import com.amazonaws.services.s3.{AmazonS3Client, AmazonS3ClientBuilder, model}
+ import com.clicktale.pipeline.framework.dal.ConfigParser.conf
+-import com.amazonaws.services.s3.AmazonS3Client
+ import com.amazonaws.services.s3.model._
++import com.amazonaws.services.s3._
+ 
+ import scala.language.postfixOps
+ 
+@@ -20,14 +23,12 @@ class Amazon {
+ 
+   val AWS_ACCESS_KEY = conf.getString("WebRecorder.PushSession.AccessKey")
+   val AWS_SECRET_KEY = conf.getString("WebRecorder.PushSession.SecretKey")
+-  val bucketName = "nv-q-s3-assets-01"
++  val bucketName ="nv-q-s3-assets-01"; //"nv-q-recordings";//
+   val provider = new AWSStaticCredentialsProvider(new BasicAWSCredentials(AWS_ACCESS_KEY, AWS_SECRET_KEY))
+   val client = AmazonS3ClientBuilder.standard().withCredentials(provider).withRegion("us-east-1").build()
+ 
+-//  def connectToAmazon(): Unit = {
+-//
+-//    val provider = new AWSStaticCredentialsProvider(new BasicAWSCredentials(AWS_ACCESS_KEY, AWS_SECRET_KEY))
+-//    val client = AmazonS3ClientBuilder.standard().withCredentials(provider).withRegion("us-east-1").build()
++  var tag: Tag = new Tag()
++
+ 
+   def removeObjectsFromBucket(){
+ 
+@@ -40,9 +41,11 @@ class Amazon {
+           val summary: S3ObjectSummary = iterator.next().asInstanceOf[S3ObjectSummary]
+           client.deleteObject(bucketName, summary.getKey())
+           print(".")
++
+         }
+         println()
+ 
++
+         flag=false
+ 
+       }
+@@ -99,12 +102,30 @@ class Amazon {
+         new ListObjectsV2Request().withBucketName(bucketName).withMaxKeys(2)
+       var result: ListObjectsV2Result = null
+       do {
++
++
+         result = client.listObjectsV2(req)
+         for (objectSummary <- result.getObjectSummaries) {
+           println(
+             " - " + objectSummary.getKey + "  " + "(size = " + objectSummary.getSize +
+               ")")
+ 
++          //var s3obj: S3Object = client.getObject(new GetObjectRequest(bucketName,objectSummary.getKey))
++         // var s3obj: S3Object = client.getObject(new GetObjectRequest(bucketName,"232897/201/CSS/https/optanon.blob.core.windows.net/skins/default_flat_top_two_button_black/v2/css/optanon.css" ))
++//          val gtr = new GetObjectTaggingRequest(bucketName,"232897/201/CSS/https/optanon.blob.core.windows.net/skins/default_flat_top_two_button_black/v2/css/optanon.css")
++//          val getTagsRes = client.getObjectTagging(gtr)
++     //     println(gtr)
++          // var objectData:InputStream = s3obj.getObjectContent
++          //  println("Content Type: " + s3obj.getObjectMetadata.getContentType)
++         //   println("Content Tag: " + s3obj.getObjectMetadata.getETag)
++            //println(objectData)
++
++
++//            var tag = new Tag(objectSummary.getKey)
++//            println(tag.getValue)
++
++
++
+         }
+ 
+         println("Next Continuation Token : " + result.getNextContinuationToken)
+@@ -134,10 +155,12 @@ class Amazon {
+ 
+     }
+ 
+-    val getTaggingRequest = new GetObjectTaggingRequest(bucketName,keyName)
+-    var getTagResult = client.getObjectTagging(getTaggingRequest)
++   // var gtres = client.getObjectTagging(gtr)
++   // println(gtres)
++//    val getTaggingRequest = new GetObjectTaggingRequest(bucketName,keyName)
++//    var getTagResult = client.getObjectTagging(getTaggingRequest)
+ 
+-    println(getTaggingRequest)
++    //println(getTaggingRequest)
+     var tag: Tag = new Tag()
+     println("tag name:" + tag.getValue)
+ 
+@@ -151,8 +174,7 @@ class Amazon {
+       }
+     }
+ 
+-
+-
++   // var object = client.getObject(new GetObjectRequest(bucketName,"gagagag"))
+ 
+ 
+   }
+diff --git a/src/main/scala/com/clicktale/pipeline/regression/tools/PushSession.scala b/src/main/scala/com/clicktale/pipeline/regression/tools/PushSession.scala
+index cf5fd29..f5f98cf 100644
+--- a/src/main/scala/com/clicktale/pipeline/regression/tools/PushSession.scala
++++ b/src/main/scala/com/clicktale/pipeline/regression/tools/PushSession.scala
+@@ -42,7 +42,7 @@ object PushSession {
+       //List.fill(1)(PusherParams(recFile = "/recFiles/rec.json",optionalPid = 1, subsId = 69093, dnsName = "https://ing.clicktale.net/ctn_v2/"))
+       //List.fill(10)(PusherParams(recFile = "/recFiles/rec.json",optionalPid = 243, subsId = 233338, dnsName = "https://ing-district.clicktale.net/ctn_v2/"))
+       //List.fill(1)(PusherParams(recFile = "/recFiles/rec.json",optionalPid = 223098, subsId = 223))
+-      //List.fill(1)(PusherParams(recFile = "/recFiles/rec.json",optionalPid = optionalPid, subsId = subsId))
++      List.fill(1)(PusherParams(recFile = "/recFiles/rec.json",optionalPid = optionalPid, subsId = subsId))
+       //List.fill(1)(PusherParams(recFile = "/recFiles/recFidelity.json"))
+       //List.fill(1)(PusherParams(recFile = "/recFiles/recPerfect.json"))
+       //List.fill(1)(PusherParams(recFile = "/recFiles/discovery.json"))
+@@ -61,7 +61,7 @@ object PushSession {
+       //List.fill(8)(PusherParams(recFile = "/recFiles/rec.json",optionalPid = 6, subsId = 69093, dnsName = "https://ing.clicktale.net/ctn_v2/"))
+       //List.fill(5)(PusherParams(recFile = "/recFiles/recPerfect.json",optionalPid = 1, subsId = 69093, dnsName = "https://ing.clicktale.net/ctn_v2/"))
+       //List.fill(10)(PusherParams(recFile = "/recFiles/rec.json",optionalPid = 2, subsId = 69313, dnsName = "https://ing.clicktale.net/ctn_v2/"))
+-      List.fill(1)(PusherParams(recFile = "/recFiles/escalation.json",optionalPid = 2, subsId = 69313, dnsName = "https://ing.clicktale.net/ctn_v2/"))
++       // List.fill(1)(PusherParams(recFile = "/recFiles/escalation.json",optionalPid = 2, subsId = 69313, dnsName = "https://ing.clicktale.net/ctn_v2/"))
+       //List.fill(1)(PusherParams(recFile = "/recFiles/escalation.json,optionalPid = 2, subsId = 69313, dnsName = "https://ing.clicktale.net/ctn_v2/"))
+     )
+ 
+@@ -71,6 +71,7 @@ object PushSession {
+   if (!new File(archivedFilesFolder).exists) new File(archivedFilesFolder).mkdir()
+ 
+   def main(args: Array[String]): Unit = {
++
+     pushArguments.par.foreach(
+       recFilesToPush => push(recFilesToPush).par.foreach {
+         case (subsId, pid, sid) =>
+diff --git a/src/main/scala/com/clicktale/pipeline/regression/tools/PushSession_AM_.scala b/src/main/scala/com/clicktale/pipeline/regression/tools/PushSession_AM_.scala
+index 7c50a1f..e795c07 100644
+--- a/src/main/scala/com/clicktale/pipeline/regression/tools/PushSession_AM_.scala
++++ b/src/main/scala/com/clicktale/pipeline/regression/tools/PushSession_AM_.scala
+@@ -1,31 +1,18 @@
+ package com.clicktale.pipeline.regression.tools
+ 
+ import java.io.{ByteArrayInputStream, ByteArrayOutputStream, File, FileOutputStream}
+-import java.util
+ import java.util.Base64
+-
+-import scala.collection.JavaConversions._
+-import com.aerospike.client.policy.WritePolicy
+-import com.aerospike.client.{AerospikeClient, Key}
+-import com.amazonaws.auth.{AWSStaticCredentialsProvider, BasicAWSCredentials}
+-import com.amazonaws.services.s3.model.{ObjectListing, S3ObjectSummary}
+-import com.amazonaws.services.s3.{AmazonS3Client, AmazonS3ClientBuilder}
+ import com.clicktale.parsing.avro.{AvroRecordingSerializer, AvroVersionExtractor, VersionedRecording}
+ import com.clicktale.parsing.xml.RecordingXmlWriter
+ import com.clicktale.pipeline.dataObjects.{PusherParams, RecordingJson}
+-import com.clicktale.pipeline.framework.MD5PathStrategy
+ import com.clicktale.pipeline.framework.dal.ConfigParser.conf
+-import com.clicktale.pipeline.framework.helpers.CsvReader
+ import com.clicktale.pipeline.framework.senders.SendSession._
+ import com.clicktale.pipeline.framework.storage.GetFromS3._
+-import com.clicktale.pipeline.storagemaster.support.serialization.encryption.RijndaelEncryption
+ import com.clicktale.recordings.Recording
+ import org.apache.commons.io.IOUtils
+ import org.apache.http.client.methods.{HttpGet, HttpPost}
+-import org.apache.http.entity.ByteArrayEntity
+ import org.apache.http.impl.client.HttpClientBuilder
+ import org.scalacheck.Prop.Exception
+-
+ import scala.collection.mutable.ArrayBuffer
+ import scala.collection.parallel.ParSeq
+ import scala.language.postfixOps
+@@ -48,7 +35,7 @@ object PushSession_AM_ {
+     conf.getString(s"WebRecorder.Cage.AwsQaLin.DNS")
+   val pushArguments: Array[List[PusherParams]] =
+     Array(
+-      List.fill(1)(PusherParams(recFile = "/recFiles/escalation.json", optionalPid = 2, subsId = 69313, dnsName = "https://ing.clicktale.net/ctn_v2/"))
++      List.fill(1)(PusherParams(recFile = "/recFiles/Assets_Manager_Jsons/TRUEC-87.json", optionalPid = 2, subsId = 69313, dnsName = "https://ing.clicktale.net/ctn_v2/"))
+       //List.fill(1)(PusherParams(recFile = "/recFiles/HBFW-491.json",optionalPid = 2, subsId = 69313, dnsName = "https://ing.clicktale.net/ctn_v2/"))
+         //List.fill(1)(PusherParams(recFile = "/recFiles/staging_partition37.json", optionalPid = 2, subsId = 69313, dnsName = "https://ing.clicktale.net/ctn_v2/"))
+     )
+@@ -74,31 +61,46 @@ object PushSession_AM_ {
+ 
+ 
+   def main(args: Array[String]): Unit = {
+-
+-    //amazonActions()
+-
+-//    pushArguments.par.foreach(
+-//      recFilesToPush => push(recFilesToPush).par.foreach {
+-//        case (subsId, pid, sid) =>
+-//          println(s"\n ----------- FINISHED PUSHING -------------- \n sid = $sid \n pid = $pid & subsid = $subsId")
+-//
+-//          saveSessionArchiveToDisk(subsId, pid, sid, isQa = true)
+-//          //returnAvro(sid, isQa = true)
+-//          //println(returnAvro(sid, isQa = true))
+-//          val response: String = tryUrlResponse(s"$cageInstanceIp/recording/v1/$subsIdForCss/$pidForCss/$sid")
+-//          searchRecursivley(response)
+-//          println("\n")
+-//          printArray(badCssURL,badCssURL.length,"bad")
+-//          printArray(goodCssURL,goodCssURL.length,"good")
+-//
+-//  //
++    amazonActions()
++
++    pushArguments.par.foreach(
++      recFilesToPush => push(recFilesToPush).par.foreach {
++        case (subsId, pid, sid) =>
++          println(s"\n ----------- FINISHED PUSHING -------------- \n sid = $sid \n pid = $pid & subsid = $subsId")
++
++          saveSessionArchiveToDisk(subsId, pid, sid, isQa = true)
++          //returnAvro(sid, isQa = true)
++          //println(returnAvro(sid, isQa = true))
++          val response: String = tryUrlResponse(s"$cageInstanceIp/recording/v1/$subsIdForCss/$pidForCss/$sid")
++          searchRecursivley(response)
++          println("\n")
++          println(pushArguments)
++          printArray(badCssURL,badCssURL.length,"bad")
++          printArray(goodCssURL,goodCssURL.length,"good")
++
++  //
+ //        amazon.countNumberOfObjectsInsideBucket()
+ //
+-//      }
+-//    )
++      }
++    )
+ 
+     //amazon.getTagName(amazon.client)
+-    amazon.retrieveObjectTags("232897/201/CSS/http/www.www8-hp.com/us/en/system/styles/cssFiles.jsp%3FcompURI=2109248&inline_images=yes&v=201709070812")
++  //  amazon.retrieveObjectTags("232897/201/CSS/http/www.www8-hp.com/us/en/system/styles/cssFiles.jsp%3FcompURI=2109248&inline_images=yes&v=201709070812")
++  }
++  def push(desiredPushArguments: List[PusherParams]): ParSeq[(Int, Int, Long)] = {
++    desiredPushArguments.par.flatMap(
++      x => {
++        x.sessionStreamsDelayFromAuth = 0
++        sendSessionAndReturnDetails(x)
++      })
++  }
++
++  def sendSessionAndReturnDetails(x: PusherParams): List[(Int, Int, Long)] ={
++    val session = pushSessionParallely(x.recFile, x.authState, optionalPid = x.optionalPid,
++      subsId = x.subsId, referrer = x.referrer, dnsName = x.dnsName)
++    println(s"\n ***** Finished pushing: ${x.recFile} to: \n  " +
++      s"pid = ${x.optionalPid} with sid = ${session.sid}\n")
++    List((x.subsId ,x.optionalPid, session.sid.toLong))
+   }
+ 
+ 
+@@ -172,21 +174,6 @@ object PushSession_AM_ {
+   }
+ 
+ 
+-  def push(desiredPushArguments: List[PusherParams]): ParSeq[(Int, Int, Long)] = {
+-    desiredPushArguments.par.flatMap(
+-      x => {
+-        x.sessionStreamsDelayFromAuth = 0
+-        sendSessionAndReturnDetails(x)
+-      })
+-  }
+-
+-  def sendSessionAndReturnDetails(x: PusherParams): List[(Int, Int, Long)] ={
+-    val session = pushSessionParallely(x.recFile, x.authState, optionalPid = x.optionalPid,
+-      subsId = x.subsId, referrer = x.referrer, dnsName = x.dnsName)
+-    println(s"\n ***** Finished pushing: ${x.recFile} to: \n  " +
+-      s"pid = ${x.optionalPid} with sid = ${session.sid}\n")
+-    List((x.subsId ,x.optionalPid, session.sid.toLong))
+-  }
+ 
+   def returnAvro(sid: Long,
+                  isQa: Boolean = false): Recording = {

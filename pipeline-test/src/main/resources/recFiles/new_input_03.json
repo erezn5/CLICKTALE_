@@ -1,0 +1,46 @@
+{
+  "IsValid": true,
+  "LiveSessionDataCollection": [
+    {
+      "CreateDate": "2018-07-01T10:15:28.522Z",
+      "Data": "Khttps%3A%2F%2Fwww.adidas.fr%2Fsearch%3Fq%3Dultra%2520boost%26prefn1%3Dgender%26srule%3Dprice-low-to-high%26grid%3Dtrue%26sz%3D24%26start%3D24%26prefv1%3DHommes&Az8W4bSLmWgSLmWgCWg1eCWgLmA8J6oConfig: Release_20180618&BPconsole.info('DeploymentConfigName%3DRelease_20180618%26Version%3D27')%3B&AoCT2MappingTag_110_7197014940578003_5535406542365143_3747196869211816&DwAaSa11.1&MacIntel&SOEWgBXYWRVVw9a&2&SLmWgSLmWgF/1fr-fr&AAAAAAAAAAAAQMPACWgLmAAUkkkk8D2Bhttps%3A%2F%2Fwww.adidas.fr%2Fsearch%3Fq%3Dultra%2520boost%26prefn1%3Dgender%26srule%3Dprice-low-to-high%26grid%3Dtrue%26sz%3D24%26start%3D48%26prefv1%3DHommes&BCA&AC1sWg&CQAA",
+      "DataFlags": 8,
+      "DataFlagType": 264,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1808297628271530,
+      "MessageNumber": 0,
+      "StreamId": 0,
+      "StreamMessageId": 0,
+      "ProjectId": 452
+    },
+    {
+      "CreateDate": "2018-07-01T10:15:31.744Z",
+      "Data": "XBtEABcontainer&&8kyXCtEERcontext_holder&B&AXDtEARmain&C&AXEtEARplp&D&AXFtECRcontent-area&E&AXGtEAQFtEBAtEABsearch-page-content&&AXHtEBRmain-area&G&AXItEBRproduct-grid&H&AXJtEARhc-container&I&AXKtEDQJtEBBproduct-CM8278&&ACLtECQKtECAABAANpBA&CQ9EeCDmDm&BlLAfSTXHuAfpBFBfpCGFfpBFJCMtECQK&CQ9EeCFuDmtECAiCIAAtEDKADtiBlAA&NlMAfpCGAfpBGQCNtEDQMtEAAtECAABAA&CS9INKNBF&blNAfpBGACOtEDQMtEBA&CRHIiKBDS&ElOAfpFSACPtEDQMtEAAtEBAtEAAtEAAB1AABMBA&CSUISB84tEAAxJE&MlPAfpBDAfpBEFCQtEAQP&CSUISB20&HlQAfpBDACRNpAQQ&CSVITByy&JlRAfpBCAfBDLfpBBCfBBMfpBBLfBBgfBBCoOnload | Page Type - D=ch&8BOqisMobile&false&AoOnload | SEARCH|SEARCH RESULTS&AoOnload | D=ch&BoVE CEC Onload | PageName: SEARCH|SEARCH RESULTS&8E0oVE CEC Onload | Page Type: D=ch&8K7foD8BgfoJIfoIIfoJHfoMUCStEDQMtEAAtEBAtEAAtEAAB1AABMAAtEAA&CRcISB20&IlSAfoMACTNpAQS&CRdITByy&HlTAfoeACUtEDQMtEAAtEBAtEAA&CQ9ISK8Dm&OlUAftfCAXVtECQJtEBBproduct-AC7590&&OCWtECQVtEDA&CNNILCCBDmtEABKAyBqAUtEBJXhWAtECACBGAAtEDKABHh4A&AlWAftgEACXtECQW&CNXIiCBHDSABAJLhLA&ElXAfteEAftNCBftXEFftIBJftQCHCYtEBQW&CNXIiKBDS&SlYAftMBACZtEAQW&CNXILKXDStEAA6GDP&ElZAftDBAftGBCWB+B3Hk8EtOBBP_({\"a\":[{\"a\":{\"c\":\"carousel-hover\"},\"n\":\"div218\"},{\"a\":{\"c\":\"carousel-hover\"},\"n\":\"div219\"},{\"a\":{\"c\":\"innercard   per hover\"},\"n\":\"div327\"},{\"a\":{\"s\":\"zi:1000;\"},\"n\":\"div324\"}]})&zcDI8I2",
+      "DataFlags": 9,
+      "DataFlagType": 265,
+      "LegacyLiveSessionDataType": null,
+      "LiveSessionId": 1808297628271530,
+      "MessageNumber": 1,
+      "StreamId": 0,
+      "StreamMessageId": 1,
+      "ProjectId": 452
+    }
+  ],
+  "DataMessagesCount": 2,
+  "RecordingStreamBySteamId": [],
+  "MissingDataRowsEstimated": 0,
+  "TotalDataLength": 1915,
+  "CreateDate": "2018-07-01T10:15:28.522Z",
+  "IPAddress": "77.136.42.0",
+  "IsSSLUsed": false,
+  "LastUpdated": "2018-06-01T11:15:31.182095Z",
+  "LiveSessionId": 1808297628271530,
+  "ProjectId": 452,
+  "ProtocolVersionType": 16,
+  "SessionId": 1808297628271530,
+  "SubscriberId": 233197,
+  "UserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.1 Safari/605.1.15",
+  "VisitorId": 1769206638641547,
+  "TrackingId": null,
+  "ProcessedMessagesCount": 2
+}

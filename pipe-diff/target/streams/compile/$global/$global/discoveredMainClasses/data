@@ -1,0 +1,1 @@
+["com.clicktale.pipe.diff.PipeDiff","com.clicktale.pipe.diff.tool.AMQPPutIdenticalRealData","com.clicktale.pipe.diff.tool.AMQPPutRealDataWithMissing","com.clicktale.pipe.diff.tool.AMQPPutSyntheticData","com.clicktale.pipe.diff.tool.FailingFutureSource"]

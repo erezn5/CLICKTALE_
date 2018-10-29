@@ -1,0 +1,2173 @@
+1095 [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 1
+1102 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+1103 [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\sukot.json
+1105 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+1108 [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+1109 [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+3293 [main] INFO  com.pipe.pipeapp.PushSession - Recording state was achieved after: 0 tries.
+3294 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "Recording",
+  "rejectReason": "None",
+  "authorized": true,
+  "ratio": 1.0,
+  "uid": "1933132103860265",
+  "skipRecording": false,
+  "expirationMins": 43200,
+  "sid": "1933132103860265"
+}
+3294 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: Recording
+3294 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+3397 [main] INFO  com.pipe.pipeapp.PushSession - 2018-09-27T14:43:40.239Z
+3397 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+3447 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+3455 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+3456 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+3456 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+3457 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+3483 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+3488 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+3496 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4240 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+4244 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4252 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4265 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+4276 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+4982 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4992 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5003 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+5686 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+7477 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+8195 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+8249 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+8952 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+9010 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+9692 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+9731 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9735 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10402 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+10451 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+12199 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+12910 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12915 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12957 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+13614 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+13660 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+14409 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+14468 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+15133 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+15148 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+15152 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+15864 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+15870 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+16576 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+16581 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+17297 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+17619 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+17664 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+18326 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+18332 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+18368 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+18411 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+19031 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+19046 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+19125 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+19132 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+19142 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+19759 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+19769 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+19861 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+19872 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+20506 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+21308 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+22079 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+22090 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+22790 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+22796 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+23877 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+23884 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+24542 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+24567 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+28573 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+29274 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 257,
+
+29874 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1933132103860265
+ pid =2 & subsid = 69313
+29875 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.27.8.176:8080/recording/v1/69313/2/1933132103860265
+29875 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.27.8.176:8080/recording/v1/69313/2/1933132103860265
+29875 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1933132103860265
+40074 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 102
+40074 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 0
+40074 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 100.0%
+40453 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(DSR / Metadata): 26
+40454 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (DSR / Metadata): 0
+40454 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(DSR / Metadata): 100.0%
+40455 [main] INFO  com.pipe.pipeapp.CompareSideBySide - 596
+657  [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = all
+	batch.size = 10485760
+	bootstrap.servers = [172.27.9.26:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+1047 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'enable.auto.commit' was supplied but isn't a known config.
+1047 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'group.id' was supplied but isn't a known config.
+1047 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'auto.commit.interval.ms' was supplied but isn't a known config.
+1047 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'session.timeout.ms' was supplied but isn't a known config.
+1047 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version : 0.11.0.0
+1047 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId : cb8625948210849f
+344  [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = all
+	batch.size = 10485760
+	bootstrap.servers = [172.22.0.65:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+587  [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'enable.auto.commit' was supplied but isn't a known config.
+603  [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'group.id' was supplied but isn't a known config.
+603  [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'auto.commit.interval.ms' was supplied but isn't a known config.
+603  [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'session.timeout.ms' was supplied but isn't a known config.
+603  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version : 0.11.0.0
+603  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId : cb8625948210849f
+1274 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - Error while fetching metadata with correlation id 1 : {qa_26952_422=LEADER_NOT_AVAILABLE}
+39696 [main] INFO  o.a.k.c.producer.KafkaProducer - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+39727 [kafka-producer-network-thread | producer-1] WARN  o.a.k.c.producer.internals.Sender - Got error produce response with correlation id 4 on topic-partition qa_26952_422-0, retrying (4 attempts left). Error: NETWORK_EXCEPTION
+1083 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = all
+	batch.size = 10485760
+	bootstrap.servers = [172.22.0.65:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+1803 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'enable.auto.commit' was supplied but isn't a known config.
+1803 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'group.id' was supplied but isn't a known config.
+1803 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'auto.commit.interval.ms' was supplied but isn't a known config.
+1803 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'session.timeout.ms' was supplied but isn't a known config.
+1818 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version : 0.11.0.0
+1818 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId : cb8625948210849f
+14974 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - Error while fetching metadata with correlation id 1 : {qa_422_26952=LEADER_NOT_AVAILABLE}
+31240 [main] INFO  o.a.k.c.producer.KafkaProducer - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+842  [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = all
+	batch.size = 10485760
+	bootstrap.servers = [172.22.0.65:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+1360 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'enable.auto.commit' was supplied but isn't a known config.
+1368 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'group.id' was supplied but isn't a known config.
+1370 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'auto.commit.interval.ms' was supplied but isn't a known config.
+1371 [main] WARN  o.a.k.c.producer.ProducerConfig - The configuration 'session.timeout.ms' was supplied but isn't a known config.
+1385 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version : 0.11.0.0
+1385 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId : cb8625948210849f
+74539 [main] INFO  o.a.k.c.producer.KafkaProducer - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+1189 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.22.0.65:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+1945 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version : 0.11.0.0
+1945 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId : cb8625948210849f
+36511 [main] INFO  o.a.k.c.producer.KafkaProducer - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+891  [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.22.0.65:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+1453 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version : 0.11.0.0
+1453 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId : cb8625948210849f
+26356 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - Error while fetching metadata with correlation id 1 : {proc422_26952=LEADER_NOT_AVAILABLE}
+844  [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.22.0.65:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+1457 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version : 0.11.0.0
+1457 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId : cb8625948210849f
+301168 [main] INFO  o.a.k.c.producer.KafkaProducer - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+690  [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.22.0.65:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+889  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version : 0.11.0.0
+889  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId : cb8625948210849f
+1536 [main] INFO  o.a.k.c.producer.KafkaProducer - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+460  [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.22.0.65:9092]
+	buffer.memory = 33554432
+	client.id = client1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+778  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version : 0.11.0.0
+778  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId : cb8625948210849f
+497  [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.22.0.65:9092]
+	buffer.memory = 33554432
+	client.id = client1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+935  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version : 0.11.0.0
+936  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId : cb8625948210849f
+654  [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [172.22.0.65:9092]
+	buffer.memory = 33554432
+	client.id = client1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+899  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version : 0.11.0.0
+900  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId : cb8625948210849f
+2515 [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 2
+2535 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+2536 [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\HD-TESTS.json
+2536 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+21340 [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+21341 [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+509  [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 2
+509  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+509  [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\HD-TESTS.json
+509  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+525  [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+525  [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+8433 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "EventTriggeredPending",
+  "rejectReason": "RejectedByRandomRatio",
+  "authorized": true,
+  "ratio": 0.0,
+  "uid": "1951424164724770",
+  "skipRecording": false,
+  "expirationMins": 0,
+  "sid": "1951424164724770"
+}
+8435 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: EventTriggeredPending
+8435 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+8511 [main] INFO  com.pipe.pipeapp.PushSession - 2018-10-10T12:51:18.852Z
+8511 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+8527 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+8557 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8556 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8559 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8560 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8578 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8578 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8593 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8593 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9313 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9316 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9320 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+9329 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+9329 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9334 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9334 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+9990 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9994 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10051 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10051 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10067 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10076 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10724 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10728 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10762 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10768 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+11181 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+11185 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+11410 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+11418 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+11462 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+11465 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+11848 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+11849 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12111 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12111 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12169 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12171 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12525 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12525 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+13328 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+14047 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 265,
+
+14665 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1951424164724770
+ pid =2 & subsid = 69313
+14666 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.27.8.176:8080/recording/v1/69313/2/1951424164724770
+14666 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.27.8.176:8080/recording/v1/69313/2/1951424164724770
+14667 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1951424164724770
+930  [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 2
+940  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+940  [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\HD-TESTS.json
+940  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+945  [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+946  [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+1437 [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 2
+1445 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+1445 [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\HD-TESTS.json
+1445 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+3502 [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+3502 [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+12102 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "EventTriggeredPending",
+  "rejectReason": "RejectedByRandomRatio",
+  "authorized": true,
+  "ratio": 0.0,
+  "uid": "1951435212259353",
+  "skipRecording": false,
+  "expirationMins": 0,
+  "sid": "1951435212259353"
+}
+12102 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: EventTriggeredPending
+12102 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+12260 [main] INFO  com.pipe.pipeapp.PushSession - 2018-10-10T13:02:33.129Z
+12260 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+12291 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+12324 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12324 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12324 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12324 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12370 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12370 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12370 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12370 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+13120 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+13120 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+13120 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+13120 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+13146 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+13170 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+13170 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+13854 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+13860 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+13870 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+13877 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+13885 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+13890 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+14546 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+14546 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+14562 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+14562 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+14577 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+14583 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+15243 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+15248 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+15301 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+15301 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+15307 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+15308 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+15961 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+15965 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+16001 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+16001 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+16021 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+16024 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+17155 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+17874 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 265,
+
+18460 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1951435212259353
+ pid =2 & subsid = 69313
+18460 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.27.8.176:8080/recording/v1/69313/2/1951435212259353
+18460 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.27.8.176:8080/recording/v1/69313/2/1951435212259353
+18460 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1951435212259353
+542  [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 2
+542  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+542  [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\HD-TESTS.json
+542  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+558  [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+558  [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+2791 [main] INFO  com.pipe.pipeapp.PushSession - Recording state was achieved after: 0 tries.
+2791 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "Recording",
+  "rejectReason": "None",
+  "authorized": true,
+  "ratio": 1.0,
+  "uid": "1951477612363778",
+  "skipRecording": false,
+  "expirationMins": 43200,
+  "sid": "1951477612363778"
+}
+2791 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: Recording
+2791 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+2871 [main] INFO  com.pipe.pipeapp.PushSession - 2018-10-10T13:45:41.155Z
+2871 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+2905 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+2917 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+2917 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+2920 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+2919 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+2933 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+2948 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+2948 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+2964 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+3658 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+3670 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+3671 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+3703 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+3703 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+3718 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+3726 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4362 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4369 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4422 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4422 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4422 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4422 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5046 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5046 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5108 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5111 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5146 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5150 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5742 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5742 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5807 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5807 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5838 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5855 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6411 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6428 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6489 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6494 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6541 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6541 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+7687 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+8382 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 265,
+
+8981 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1951477612363778
+ pid =26952 & subsid = 422
+8981 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.0.117:8080/recording/v1/422/26952/1951477612363778
+8981 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.6.187:8080/recording/v1/422/26952/1951477612363778
+8981 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1951477612363778
+20855 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(Json / Metadata): 85
+20856 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (Json / Metadata): 7
+20856 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(Json / Metadata): 92.391304%
+22754 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 96
+22755 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 10
+22755 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 90.56604%
+22991 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(DSR / Metadata): 25
+22993 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (DSR / Metadata): 1
+22993 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(DSR / Metadata): 96.15385%
+22993 [main] INFO  com.pipe.pipeapp.CompareSideBySide - 2239
+22993 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+22994 [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\sukot.json
+22994 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+22994 [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+22995 [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+23589 [main] INFO  com.pipe.pipeapp.PushSession - Recording state was achieved after: 0 tries.
+23590 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "Recording",
+  "rejectReason": "None",
+  "authorized": true,
+  "ratio": 1.0,
+  "uid": "1951477955067907",
+  "skipRecording": false,
+  "expirationMins": 43200,
+  "sid": "1951477955067907"
+}
+23590 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: Recording
+23590 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+23591 [main] INFO  com.pipe.pipeapp.PushSession - 2018-10-10T13:46:01.939Z
+23591 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+23610 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+23611 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+23611 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+23611 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+23616 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+23618 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+23629 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+24307 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+24323 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+24325 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+25064 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+25064 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+25758 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+27617 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+27647 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+28327 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+28327 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+28342 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+28358 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+29020 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+29065 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+29766 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+30479 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+32343 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+33025 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+33049 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+33081 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+33718 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+33736 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+33803 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+34447 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+34447 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+34487 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+35158 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+35170 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+35208 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+35242 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+35868 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+35871 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+35943 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+35943 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+36599 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+36613 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+36628 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+37064 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+37293 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+37747 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+37823 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+38529 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+40638 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+41294 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+41347 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+41350 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+41758 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+42025 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+42032 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+42487 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+42530 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+42707 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+42722 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+43049 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+43439 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+43450 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+46501 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+47050 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+47183 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+47183 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+47733 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+47733 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+48449 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 257,
+
+49068 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1951477955067907
+ pid =26952 & subsid = 422
+49068 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.0.117:8080/recording/v1/422/26952/1951477955067907
+49068 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.6.187:8080/recording/v1/422/26952/1951477955067907
+49068 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1951477955067907
+60182 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(Json / Metadata): 83
+60182 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (Json / Metadata): 9
+60183 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(Json / Metadata): 90.21739%
+60288 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 93
+60288 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 9
+60289 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 91.17647%
+60875 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(DSR / Metadata): 25
+60875 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (DSR / Metadata): 1
+60875 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(DSR / Metadata): 96.15385%
+60875 [main] INFO  com.pipe.pipeapp.CompareSideBySide - 708
+60968 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(Json / Metadata): 83
+60968 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (Json / Metadata): 9
+60968 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(Json / Metadata): 90.21739%
+61293 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 93
+61309 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 9
+61309 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 91.17647%
+62084 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(DSR / Metadata): 25
+62084 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (DSR / Metadata): 1
+62085 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(DSR / Metadata): 96.15385%
+62085 [main] INFO  com.pipe.pipeapp.CompareSideBySide - 1210
+1264 [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 2
+1272 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+1273 [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\HD-TESTS.json
+1273 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+1278 [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+1279 [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+10317 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "EventTriggeredPending",
+  "rejectReason": "RejectedByRandomRatio",
+  "authorized": true,
+  "ratio": 0.0,
+  "uid": "1951480544821297",
+  "skipRecording": false,
+  "expirationMins": 0,
+  "sid": "1951480544821297"
+}
+10317 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: EventTriggeredPending
+10317 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+10460 [main] INFO  com.pipe.pipeapp.PushSession - 2018-10-10T13:48:40.063Z
+10460 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+10497 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+10507 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10513 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10513 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10517 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10538 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10543 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10546 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10546 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+11254 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+11260 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+11297 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+11307 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+11311 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+11313 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+11319 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+11985 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+11988 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12045 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12049 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12063 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12067 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12694 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12697 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12728 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12733 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12746 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12749 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+13414 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+13423 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+13457 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+13463 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+13463 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+13471 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+14118 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+14124 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+14195 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+14207 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+14209 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+14215 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+15319 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+16035 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 265,
+
+16660 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1951480544821297
+ pid =2 & subsid = 69313
+16660 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://nv-p1-elb-ext-central-cage-01-993205500.us-east-1.elb.amazonaws.com/recording/v1/69313/2/1951480544821297
+16661 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://nv-p1-elb-ext-central-cage-01-993205500.us-east-1.elb.amazonaws.com/recording/v1/69313/2/1951480544821297
+16661 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1951480544821297
+1819 [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 2
+1828 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+1829 [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\HD-TESTS.json
+1829 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+1831 [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+1832 [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+5466 [main] INFO  com.pipe.pipeapp.PushSession - Recording state was achieved after: 0 tries.
+5484 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "Recording",
+  "rejectReason": "None",
+  "authorized": true,
+  "ratio": 1.0,
+  "uid": "1951487682281476",
+  "skipRecording": false,
+  "expirationMins": 43200,
+  "sid": "1951487682281476"
+}
+5485 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: Recording
+5490 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+5782 [main] INFO  com.pipe.pipeapp.PushSession - 2018-10-10T13:55:56.218Z
+5801 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+5924 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+5932 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5963 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6088 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6134 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6134 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6162 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6162 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6162 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6761 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6774 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6936 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6940 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+6946 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6956 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+6974 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+7482 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+7493 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+7665 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+7677 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+7695 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+7702 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8219 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8230 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8400 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8417 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8424 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8433 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9009 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9016 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9189 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9195 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9195 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9200 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9722 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9728 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9884 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9892 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9950 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9967 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10979 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+11720 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 265,
+
+12330 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1951487682281476
+ pid =26952 & subsid = 422
+12330 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.0.117:8080/recording/v1/422/26952/1951487682281476
+12330 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.6.187:8080/recording/v1/422/26952/1951487682281476
+12330 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1951487682281476
+1149 [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 2
+1164 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+1165 [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\HD-TESTS.json
+1165 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+1179 [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+1180 [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+3598 [main] INFO  com.pipe.pipeapp.PushSession - Recording state was achieved after: 0 tries.
+3598 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "Recording",
+  "rejectReason": "None",
+  "authorized": true,
+  "ratio": 1.0,
+  "uid": "1951488715210757",
+  "skipRecording": false,
+  "expirationMins": 43200,
+  "sid": "1951488715210757"
+}
+3598 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: Recording
+3599 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+3663 [main] INFO  com.pipe.pipeapp.PushSession - 2018-10-10T13:56:58.807Z
+3663 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+3707 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+3716 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+3716 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+3716 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+3718 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+3748 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+3766 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+3772 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+3778 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4508 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4508 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+4508 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4519 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4522 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4541 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4549 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5218 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5219 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5225 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5229 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5234 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5239 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5914 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5923 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5944 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+5952 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+5964 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5975 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6596 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6602 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6666 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6676 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6718 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6724 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+7290 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+7295 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+7424 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+7426 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+7459 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+7463 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8520 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+9192 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 265,
+
+9786 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1951488715210757
+ pid =26952 & subsid = 422
+9787 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.0.117:8080/recording/v1/422/26952/1951488715210757
+9787 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.6.187:8080/recording/v1/422/26952/1951488715210757
+9787 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1951488715210757
+20661 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(Json / Metadata): 85
+20661 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (Json / Metadata): 7
+20663 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(Json / Metadata): 92.391304%
+22072 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 96
+22074 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 10
+22076 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 90.56604%
+22221 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(DSR / Metadata): 25
+22221 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (DSR / Metadata): 1
+22222 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(DSR / Metadata): 96.15385%
+22222 [main] INFO  com.pipe.pipeapp.CompareSideBySide - 1624
+22222 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+22222 [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\sukot.json
+22223 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+22229 [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+22230 [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+22863 [main] INFO  com.pipe.pipeapp.PushSession - Recording state was achieved after: 0 tries.
+22863 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "Recording",
+  "rejectReason": "None",
+  "authorized": true,
+  "ratio": 1.0,
+  "uid": "1951489032290310",
+  "skipRecording": false,
+  "expirationMins": 43200,
+  "sid": "1951489032290310"
+}
+22864 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: Recording
+22864 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+22864 [main] INFO  com.pipe.pipeapp.PushSession - 2018-10-10T13:57:18.056Z
+22864 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+22868 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+22868 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+22869 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+22869 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+22873 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+22879 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+22887 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+23621 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+23624 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+23628 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+24342 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+24346 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+25048 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+26874 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+26892 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+27576 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+27588 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+27592 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+27626 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+28286 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+28351 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+29051 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+29744 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+31581 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+32291 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+32301 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+32355 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+32996 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+33002 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+33070 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+33722 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+33725 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+33749 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+34467 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+34471 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+34479 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+34482 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+35157 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+35166 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+35186 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+35190 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+35916 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+36308 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+36893 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+36899 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+37011 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+37075 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+37622 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+37783 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+39921 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+40638 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+40643 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+41019 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+41325 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+41627 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+41707 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+41787 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+42334 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+42351 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+42490 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+42497 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+43229 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+43233 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+45329 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+45711 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+46041 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+46045 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+46396 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+46399 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+47074 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 257,
+
+47695 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1951489032290310
+ pid =26952 & subsid = 422
+47696 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.0.117:8080/recording/v1/422/26952/1951489032290310
+47696 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.6.187:8080/recording/v1/422/26952/1951489032290310
+47696 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1951489032290310
+59460 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(Json / Metadata): 83
+59460 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (Json / Metadata): 9
+59461 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(Json / Metadata): 90.21739%
+59567 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 93
+59568 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 9
+59568 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 91.17647%
+60344 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(DSR / Metadata): 25
+60344 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (DSR / Metadata): 1
+60344 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(DSR / Metadata): 96.15385%
+60344 [main] INFO  com.pipe.pipeapp.CompareSideBySide - 898
+60439 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(Json / Metadata): 83
+60439 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (Json / Metadata): 9
+60439 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(Json / Metadata): 90.21739%
+60694 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 93
+60695 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 9
+60695 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 91.17647%
+61182 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(DSR / Metadata): 25
+61189 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (DSR / Metadata): 1
+61193 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(DSR / Metadata): 96.15385%
+61193 [main] INFO  com.pipe.pipeapp.CompareSideBySide - 830
+1214 [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 2
+1232 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+1232 [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\HD-TESTS.json
+1233 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+1240 [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+1241 [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+4425 [main] INFO  com.pipe.pipeapp.PushSession - Recording state was achieved after: 0 tries.
+4425 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "Recording",
+  "rejectReason": "None",
+  "authorized": true,
+  "ratio": 1.0,
+  "uid": "1951494137397255",
+  "skipRecording": false,
+  "expirationMins": 43200,
+  "sid": "1951494137397255"
+}
+4426 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: Recording
+4426 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+4587 [main] INFO  com.pipe.pipeapp.PushSession - 2018-10-10T14:02:29.919Z
+4588 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+4633 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+4654 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4656 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4655 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4658 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+4699 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4721 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4729 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+4739 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5426 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5435 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5471 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+5479 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+5480 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+5483 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+5496 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+6179 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6185 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6189 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6195 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6240 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6244 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6893 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6901 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+6911 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+6915 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+7359 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+7366 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+7608 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+7617 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+7646 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+7653 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8076 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8083 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8328 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8336 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8365 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8372 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8808 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8812 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9495 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+10217 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 265,
+
+10799 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1951494137397255
+ pid =26952 & subsid = 422
+10799 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.0.117:8080/recording/v1/422/26952/1951494137397255
+10800 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.6.187:8080/recording/v1/422/26952/1951494137397255
+10800 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1951494137397255
+21909 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(Json / Metadata): 85
+21910 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (Json / Metadata): 7
+21910 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(Json / Metadata): 92.391304%
+22684 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 105
+22685 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 1
+22685 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 99.0566%
+22854 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(DSR / Metadata): 26
+22855 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (DSR / Metadata): 0
+22855 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(DSR / Metadata): 100.0%
+22855 [main] INFO  com.pipe.pipeapp.CompareSideBySide - 1035
+22856 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+22857 [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\sukot.json
+22861 [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+22875 [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+22876 [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+23515 [main] INFO  com.pipe.pipeapp.PushSession - Recording state was achieved after: 0 tries.
+23516 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "Recording",
+  "rejectReason": "None",
+  "authorized": true,
+  "ratio": 1.0,
+  "uid": "1951494453936136",
+  "skipRecording": false,
+  "expirationMins": 43200,
+  "sid": "1951494453936136"
+}
+23516 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: Recording
+23516 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+23516 [main] INFO  com.pipe.pipeapp.PushSession - 2018-10-10T14:02:48.969Z
+23518 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+23524 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+23525 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+23534 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+23595 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+23595 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+23609 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+23614 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+24253 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+24261 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+24326 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+24989 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+24994 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+25717 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+27603 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+27626 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+28317 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+28322 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+28326 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+28336 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+29037 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+29056 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+29722 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+30412 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+32325 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+33041 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+33091 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+33093 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+33841 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+33872 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+33878 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+34628 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+34637 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+34661 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+35381 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+35390 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+35392 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+35412 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+36092 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+36098 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+36119 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+36125 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+36808 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+36814 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+36822 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+37072 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+37548 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+37821 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+37872 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+38601 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+40828 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+41562 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+41566 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+41589 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+41830 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+42289 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+42293 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+42314 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+42554 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+42607 [ForkJoinPool.commonPool-worker-0] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+43004 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+43009 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+43717 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+43725 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+46321 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+46558 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+47044 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+47048 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+47280 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+47285 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+47987 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 257,
+
+48596 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1951494453936136
+ pid =26952 & subsid = 422
+48596 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.0.117:8080/recording/v1/422/26952/1951494453936136
+48596 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://172.22.6.187:8080/recording/v1/422/26952/1951494453936136
+48596 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1951494453936136
+59623 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(Json / Metadata): 83
+59624 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (Json / Metadata): 9
+59624 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(Json / Metadata): 90.21739%
+59675 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 101
+59676 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 1
+59676 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 99.01961%
+60289 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(DSR / Metadata): 25
+60290 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (DSR / Metadata): 1
+60290 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(DSR / Metadata): 96.15385%
+60291 [main] INFO  com.pipe.pipeapp.CompareSideBySide - 698
+60320 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(Json / Metadata): 83
+60320 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (Json / Metadata): 9
+60320 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(Json / Metadata): 90.21739%
+60362 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are (XML / Events): 101
+60362 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (XML / Events): 1
+60362 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success (XML / Events): 99.01961%
+60972 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of good comparisons are(DSR / Metadata): 25
+60973 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Number of bad comparisons are (DSR / Metadata): 1
+60973 [main] INFO  com.pipe.pipeapp.CompareSideBySide - Percantage of Success(DSR / Metadata): 96.15385%
+60973 [main] INFO  com.pipe.pipeapp.CompareSideBySide - 674
+538  [main] INFO  com.pipe.pipeapp.CompareSideBySide - number of session to be run are: 2
+545  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+545  [main] INFO  com.pipe.pipeapp.CompareSideBySide - running test for the following json input file: src\main\resources\recFiles\HD-TESTS.json
+545  [main] INFO  com.pipe.pipeapp.CompareSideBySide - ----------------------------------------------------------------------------------------------------------------------------------
+547  [main] INFO  com.pipe.pipeapp.PushSession - Building auth url for the get request...
+547  [main] INFO  com.pipe.pipeapp.PushSession - Send the auth request itself...
+8457 [main] INFO  com.pipe.pipeapp.PushSession - {
+  "ip": "207.232.17.25",
+  "userTrackingState": "EventTriggeredPending",
+  "rejectReason": "RejectedByRandomRatio",
+  "authorized": true,
+  "ratio": 0.0,
+  "uid": "1951526069174330",
+  "skipRecording": false,
+  "expirationMins": 0,
+  "sid": "1951526069174330"
+}
+8458 [main] INFO  com.pipe.pipeapp.PushSession - Auth user tracking state is: EventTriggeredPending
+8458 [main] INFO  com.pipe.pipeapp.PushSession - Returning the parsed auth response...
+8539 [main] INFO  com.pipe.pipeapp.PushSession - 2018-10-10T14:34:58.635Z
+8539 [main] INFO  com.pipe.pipeapp.PushSession - Parsing json text file from resources folder...
+8569 [main] INFO  com.pipe.pipeapp.PushSession - Send parallel requests...
+8582 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8583 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8585 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8585 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+8607 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8613 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8621 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+8628 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9326 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9333 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9349 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+9354 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 104,
+9357 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+9366 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 104,
+
+9374 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - 105,
+10050 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10054 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10069 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10072 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10122 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10127 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10780 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10783 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10801 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10807 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+10820 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+10826 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+11481 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+11486 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+11512 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+11517 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+11536 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+11541 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12199 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12201 [ForkJoinPool.commonPool-worker-2] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12224 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12226 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+12246 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - 264,
+12248 [ForkJoinPool.commonPool-worker-3] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 264,
+
+13379 [ForkJoinPool.commonPool-worker-1] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 105,
+
+14145 [main] INFO  c.pipe.pipeapp.SendRequestConsumer - message type: 265,
+
+14766 [main] INFO  com.pipe.pipeapp.PushSession - 
+ ------------------------------------------------------  FINISHED PUSHING ------------------------------------------------------ 
+ sid = 1951526069174330
+ pid =2 & subsid = 69313
+14767 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://nv-p1-elb-ext-central-cage-01-993205500.us-east-1.elb.amazonaws.com/recording/v1/69313/2/1951526069174330
+14768 [main] INFO  com.pipe.pipeapp.PushSession - Cage url with relevant parameters: 
+http://nv-p1-elb-ext-central-cage-01-993205500.us-east-1.elb.amazonaws.com/recording/v1/69313/2/1951526069174330
+14769 [main] INFO  com.pipe.pipeapp.PushSession - 
+UID: 1951526069174330
+274650 [AMQP Connection 172.22.7.11:5672] WARN  c.r.c.i.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Connection reset)
+274651 [AMQP Connection 172.22.7.11:5672] WARN  c.r.c.i.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Connection reset)
+225459 [AMQP Connection 172.22.7.11:5672] WARN  c.r.c.i.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Connection reset)
+225459 [AMQP Connection 172.22.7.11:5672] WARN  c.r.c.i.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Connection reset)
+298737 [AMQP Connection 172.22.7.11:5672] ERROR c.r.c.i.ForgivingExceptionHandler - Caught an exception when recovering topology Caught an exception while recovering queue ct.processed.recordings_previous.queue: null
+com.rabbitmq.client.TopologyRecoveryException: Caught an exception while recovering queue ct.processed.recordings_previous.queue: null
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.recoverQueues(AutorecoveringConnection.java:632)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.recoverEntities(AutorecoveringConnection.java:583)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.beginAutomaticRecovery(AutorecoveringConnection.java:506)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.access$000(AutorecoveringConnection.java:53)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection$1.recoveryCanBegin(AutorecoveringConnection.java:435)
+	at com.rabbitmq.client.impl.AMQConnection.notifyRecoveryCanBeginListeners(AMQConnection.java:693)
+	at com.rabbitmq.client.impl.AMQConnection.doFinalShutdown(AMQConnection.java:687)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:577)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:105)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:101)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:123)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclare(ChannelN.java:948)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclare(ChannelN.java:50)
+	at com.rabbitmq.client.impl.recovery.RecordedQueue.recover(RecordedQueue.java:53)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.recoverQueues(AutorecoveringConnection.java:608)
+	... 8 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 0, class-id=60, method-id=80)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:32)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:366)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:229)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:117)
+	... 12 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 0, class-id=60, method-id=80)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:505)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:336)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:143)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:90)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:634)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:572)
+	... 1 common frames omitted
+298737 [AMQP Connection 172.22.7.11:5672] ERROR c.r.c.i.ForgivingExceptionHandler - Caught an exception when recovering topology Caught an exception while recovering queue ct.processed.recordings_current.queue: null
+com.rabbitmq.client.TopologyRecoveryException: Caught an exception while recovering queue ct.processed.recordings_current.queue: null
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.recoverQueues(AutorecoveringConnection.java:632)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.recoverEntities(AutorecoveringConnection.java:583)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.beginAutomaticRecovery(AutorecoveringConnection.java:506)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.access$000(AutorecoveringConnection.java:53)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection$1.recoveryCanBegin(AutorecoveringConnection.java:435)
+	at com.rabbitmq.client.impl.AMQConnection.notifyRecoveryCanBeginListeners(AMQConnection.java:693)
+	at com.rabbitmq.client.impl.AMQConnection.doFinalShutdown(AMQConnection.java:687)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:577)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:105)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:101)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:123)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclare(ChannelN.java:948)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclare(ChannelN.java:50)
+	at com.rabbitmq.client.impl.recovery.RecordedQueue.recover(RecordedQueue.java:53)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.recoverQueues(AutorecoveringConnection.java:608)
+	... 8 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 0, class-id=60, method-id=80)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:32)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:366)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:229)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:117)
+	... 12 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 0, class-id=60, method-id=80)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:505)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:336)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:143)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:90)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:634)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:572)
+	... 1 common frames omitted
+298737 [AMQP Connection 172.22.7.11:5672] ERROR c.r.c.i.ForgivingExceptionHandler - Caught an exception when recovering topology Caught an exception while recovering consumer amq.ctag-_1kbea3ZDnvvb0nzCzoRWQ: channel is already closed due to channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 0, class-id=60, method-id=80)
+com.rabbitmq.client.TopologyRecoveryException: Caught an exception while recovering consumer amq.ctag-_1kbea3ZDnvvb0nzCzoRWQ: channel is already closed due to channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 0, class-id=60, method-id=80)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.recoverConsumers(AutorecoveringConnection.java:673)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.beginAutomaticRecovery(AutorecoveringConnection.java:507)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.access$000(AutorecoveringConnection.java:53)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection$1.recoveryCanBegin(AutorecoveringConnection.java:435)
+	at com.rabbitmq.client.impl.AMQConnection.notifyRecoveryCanBeginListeners(AMQConnection.java:693)
+	at com.rabbitmq.client.impl.AMQConnection.doFinalShutdown(AMQConnection.java:687)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:577)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.rabbitmq.client.AlreadyClosedException: channel is already closed due to channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 0, class-id=60, method-id=80)
+	at com.rabbitmq.client.impl.AMQChannel.ensureIsOpen(AMQChannel.java:198)
+	at com.rabbitmq.client.impl.AMQChannel.rpc(AMQChannel.java:244)
+	at com.rabbitmq.client.impl.ChannelN.basicConsume(ChannelN.java:1242)
+	at com.rabbitmq.client.impl.recovery.RecordedConsumer.recover(RecordedConsumer.java:60)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.recoverConsumers(AutorecoveringConnection.java:657)
+	... 7 common frames omitted
+298753 [AMQP Connection 172.22.7.11:5672] ERROR c.r.c.i.ForgivingExceptionHandler - Caught an exception when recovering topology Caught an exception while recovering consumer amq.ctag-aBCE_WCSvlDAYUhnlXCA0w: channel is already closed due to channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 0, class-id=60, method-id=80)
+com.rabbitmq.client.TopologyRecoveryException: Caught an exception while recovering consumer amq.ctag-aBCE_WCSvlDAYUhnlXCA0w: channel is already closed due to channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 0, class-id=60, method-id=80)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.recoverConsumers(AutorecoveringConnection.java:673)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.beginAutomaticRecovery(AutorecoveringConnection.java:507)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.access$000(AutorecoveringConnection.java:53)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection$1.recoveryCanBegin(AutorecoveringConnection.java:435)
+	at com.rabbitmq.client.impl.AMQConnection.notifyRecoveryCanBeginListeners(AMQConnection.java:693)
+	at com.rabbitmq.client.impl.AMQConnection.doFinalShutdown(AMQConnection.java:687)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:577)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.rabbitmq.client.AlreadyClosedException: channel is already closed due to channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 0, class-id=60, method-id=80)
+	at com.rabbitmq.client.impl.AMQChannel.ensureIsOpen(AMQChannel.java:198)
+	at com.rabbitmq.client.impl.AMQChannel.rpc(AMQChannel.java:244)
+	at com.rabbitmq.client.impl.ChannelN.basicConsume(ChannelN.java:1242)
+	at com.rabbitmq.client.impl.recovery.RecordedConsumer.recover(RecordedConsumer.java:60)
+	at com.rabbitmq.client.impl.recovery.AutorecoveringConnection.recoverConsumers(AutorecoveringConnection.java:657)
+	... 7 common frames omitted

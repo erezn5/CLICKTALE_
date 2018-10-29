@@ -1,0 +1,21 @@
+{
+  "IsValid": true,
+  "LiveSessionDataCollection": [],
+  "DataMessagesCount": 0,
+  "RecordingStreamBySteamId": [],
+  "MissingDataRowsEstimated": 0,
+  "TotalDataLength": 0,
+  "CreateDate": "0001-01-01T00:00:00",
+  "IPAddress": "207.232.17.0",
+  "IsSSLUsed": false,
+  "LastUpdated": "2017-11-14T14:54:42.7747114Z",
+  "LiveSessionId": 1526754221686909,
+  "ProjectId": 2,
+  "ProtocolVersionType": 0,
+  "SessionId": 1526754221686909,
+  "SubscriberId": 69313,
+  "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "VisitorId": 1525162788585501,
+  "TrackingId": null,
+  "ProcessedMessagesCount": 0
+}

@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Git\pipe-diff\src\main\resources\application.conf,C:\Git\pipe-diff\target\scala-2.12\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Git\pipe-diff\src\main\resources\application.conf.prod,C:\Git\pipe-diff\target\scala-2.12\classes\application.conf.prod)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Git\pipe-diff\src\main\resources\application.conf.qa,C:\Git\pipe-diff\target\scala-2.12\classes\application.conf.qa)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Git\pipe-diff\src\main\resources\logback.xml,C:\Git\pipe-diff\target\scala-2.12\classes\logback.xml)[0m

@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="test-parameter">
+
+        <!--<parameter name="config" value="src/main/resources/qa.properties"/>-->
+        <parameter name="config" value="src/main/resources/central.properties"/>
+        <test name="sendSession" parallel="none">
+        <classes>
+
+      <!--      <class name="com.pipe.pipeapp.PusherParams" /> -->
+            <class name ="com.pipe.pipeapp.Configuration"/>
+            <!--<class name = "com.pipe.pipeapp.CageProd"/>-->
+            <!--<class name ="com.pipe.pipeapp.Performance"/>-->
+            <!--<class name = "com.pipe.pipeapp.ProcessorTests"/>-->
+            <!--<class name = "com.pipe.pipeapp.SetUpConnectionClass"/>-->
+            <!--<class name = "com.pipe.pipeapp.DuplicatorTest"/>-->
+            <!--<class name = "com.pipe.pipeapp.ConnectionTests"/>-->
+            <class name = "com.pipe.pipeapp.CompareSideBySide"/>
+            <!--<class name = "com.pipe.pipeapp.kafkaTest"/>-->
+            <!--<class name = "com.pipe.pipeapp.Production.CageResponseProduction"/>-->
+            <!--<class name = "com.pipe.pipeapp.CacheDevice"/>-->
+
+        </classes>
+        </test>
+</suite>
